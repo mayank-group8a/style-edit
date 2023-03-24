@@ -1,0 +1,3185 @@
+{
+  "current": {
+    "heading_color": "#303030",
+    "text_color": "#303030",
+    "text_light_color": "#595959",
+    "link_color": "#000000",
+    "background": "#ffffff",
+    "light_background": "#ffffff",
+    "product_on_sale_color": "#f94c43",
+    "button_background": "#b5838d",
+    "button_text_color": "#ffffff",
+    "header_background": "#ffffff",
+    "header_heading_color": "#303030",
+    "header_light_color": "#595959",
+    "footer_background": "#eeeeee",
+    "footer_heading_color": "#303030",
+    "footer_text_color": "#595959",
+    "navigation_background": "#ffffff",
+    "navigation_text_color": "#303030",
+    "newsletter_popup_background": "#ffffff",
+    "newsletter_popup_text_color": "#303030",
+    "secondary_elements_background": "#ffffff",
+    "secondary_elements_text_color": "#303030",
+    "heading_font": "din_neuzeit_grotesk_n3",
+    "heading_size": "small",
+    "uppercase_heading": true,
+    "text_font": "futura_n4",
+    "base_text_font_size": 15,
+    "show_page_transition": false,
+    "show_button_transition": false,
+    "show_image_zooming": false,
+    "show_element_staggering": true,
+    "search_mode": "product",
+    "product_show_price_on_hover": false,
+    "product_show_secondary_image": true,
+    "product_info_alignment": "center",
+    "product_image_size": "natural",
+    "product_list_horizontal_spacing": "medium",
+    "product_list_vertical_spacing": "small",
+    "cart_type": "drawer",
+    "cart_enable_notes": false,
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": "0",
+    "social_facebook": "https:\/\/www.facebook.com\/StyleEditHair\/",
+    "social_twitter": "https:\/\/twitter.com\/StyleEditHair",
+    "social_pinterest": "https:\/\/www.pinterest.com\/StyleEditHair\/_shop\/",
+    "social_instagram": "https:\/\/www.instagram.com\/styleedithair\/",
+    "social_youtube": "https:\/\/www.youtube.com\/channel\/UC3okSj7D1EP9jQxylRwKcHA",
+    "social_tiktok": "https:\/\/www.tiktok.com\/styleedithair",
+    "favicon": "shopify:\/\/shop_images\/favicon_pink.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/SE_logo_black720px.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_accent_color": "#7e5475",
+    "checkout_button_color": "#b5838d",
+    "sections": {
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "primary_menu": "prestige-theme-main-menu",
+          "secondary_menu": "shop",
+          "show_social_media": true
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable_bar": true,
+          "home_page_only": false,
+          "background": "#b5838d",
+          "text_color": "#eeeeee",
+          "content": "⭐ 20% off Duos | Code: SHINE20 ⭐ FREE SHIPPING ON ALL ORDERS",
+          "link": "https:\/\/styleedit.com\/collections\/sets-and-bundles"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "520fd3f4-7449-4eb7-adb8-dc4a0541b1d0": {
+            "type": "mega_menu",
+            "disabled": true,
+            "settings": {
+              "navigation_mega_menu": "",
+              "push_1_heading": "Example heading",
+              "push_1_subheading": "Example sub-heading",
+              "push_1_url": "",
+              "push_2_heading": "Example heading",
+              "push_2_subheading": "Example sub-heading",
+              "push_2_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "520fd3f4-7449-4eb7-adb8-dc4a0541b1d0"
+        ],
+        "settings": {
+          "use_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/styleedit_logo.png",
+          "logo_max_width": 55,
+          "mobile_logo_max_width": 55,
+          "show_currency_selector": true,
+          "show_locale_selector": true,
+          "navigation_menu": "prestige-theme-main-menu",
+          "navigation_style": "logoLeft",
+          "show_icons": true,
+          "enable_transparent_header": true,
+          "enable_transparent_header_collection": false,
+          "show_transparent_header_border": false,
+          "transparent_text_color": "#303030"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "FOLLOW US!",
+              "content": "<p><\/p>",
+              "show_social_media": true
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "the-company"
+            }
+          },
+          "67efe651-341f-4096-aa27-584cb818a86e": {
+            "type": "links",
+            "settings": {
+              "menu": "help"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "67efe651-341f-4096-aa27-584cb818a86e",
+          "footer-2"
+        ],
+        "settings": {
+          "show_payment_methods": true,
+          "show_currency_selector": true,
+          "show_locale_selector": true
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "97649d47-05d1-4752-94b2-9f8b16728cf7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Desktop_Black_Friday_Banner_11.23.20_3880cc55-00df-4b97-9018-caaf9f5b99e0.png",
+              "mobile_image": "shopify:\/\/shop_images\/Mobile_Black_Friday_Banner_2_076531c7-2abd-4899-9aa9-f10d21019312.png",
+              "apply_overlay": false,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "",
+              "button_1_link": "https:\/\/styleedit.com\/collections\/all-products",
+              "button_2_text": ""
+            }
+          },
+          "slide-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Desktop_Free_Gift_Banner_11.23.20.png",
+              "mobile_image": "shopify:\/\/shop_images\/Mobile_Free_Gift_Banner_2_fbc51768-6e1f-46c0-ac4c-65023431d3c5.png",
+              "apply_overlay": false,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "",
+              "button_1_link": "https:\/\/styleedit.com\/collections\/gifts",
+              "button_2_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "97649d47-05d1-4752-94b2-9f8b16728cf7",
+          "slide-1"
+        ],
+        "settings": {
+          "show_fullscreen": true,
+          "show_arrow": true,
+          "autoplay": true,
+          "cycle_speed": 7,
+          "text_color": "#ffffff",
+          "button_color": "#363636",
+          "button_background": "#ffffff"
+        }
+      },
+      "featured-collections": {
+        "type": "featured-collections",
+        "blocks": {
+          "featured-collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "discover-our-bestsellers",
+              "title": "DISCOVER OUR BESTSELLERS",
+              "grid_items_count": 8,
+              "button_text": "View all"
+            }
+          }
+        },
+        "block_order": [
+          "featured-collection-0"
+        ],
+        "settings": {
+          "title": "",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": true,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "fdb37677-72b0-4ef1-9a56-f6ad157f9664": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/1_3b8e9c08-6556-47a4-b59d-6e23769863b6.png",
+              "image_alignment": "center right",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "touch-up-powder",
+              "image": "shopify:\/\/shop_images\/7_aafd1c92-20c7-4af2-8687-288b316ab593.png",
+              "image_alignment": "center right",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "ROOT TOUCH-UP POWDER",
+              "button_text": "FIND YOUR SHADE",
+              "button_link": "https:\/\/styleedit.com\/discount\/GIVE10?redirect=\/collections\/touch-up-powder",
+              "apply_overlay": false
+            }
+          },
+          "31fe881a-c895-438f-b461-10a20652b835": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "gifts",
+              "image": "shopify:\/\/shop_images\/6.png",
+              "image_alignment": "center right",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP",
+              "title": "GIFTS",
+              "button_text": "EXPLORE",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "touch-up-spray",
+              "image": "shopify:\/\/shop_images\/8.png",
+              "image_alignment": "center right",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "ROOT CONCEALER SPRAY",
+              "button_text": "FIND YOUR SHADE",
+              "button_link": "https:\/\/styleedit.com\/discount\/GIVE10?redirect=\/collections\/touch-up-spray",
+              "apply_overlay": false
+            }
+          },
+          "eb33539b-9c20-46f4-a25e-408750af6f23": {
+            "type": "collection",
+            "settings": {
+              "collection": "sets-and-bundles",
+              "image": "shopify:\/\/shop_images\/12.png",
+              "image_alignment": "center left",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "Bundles & Duos",
+              "button_text": "Find your bundle or duo",
+              "button_link": "",
+              "apply_overlay": false
+            }
+          },
+          "bafc29c7-3c6c-4a6a-916e-d55859ac3385": {
+            "type": "collection",
+            "settings": {
+              "collection": "travel-size-concealer-spray",
+              "image": "shopify:\/\/shop_images\/9.png",
+              "image_alignment": "center right",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "TRAVEL SIZE CONCEALER SPRAY",
+              "button_text": "find your shade",
+              "button_link": "https:\/\/styleedit.com\/discount\/GIVE10?redirect=\/collections\/travel-size-concealer-spray",
+              "apply_overlay": false
+            }
+          },
+          "b850aac4-8de8-4fa6-bb57-03e9810e1e33": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "fill-fx-spray",
+              "image": "shopify:\/\/shop_images\/product_images_new_Page_1.2.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP",
+              "title": "FILL FX HAIR-BUILDING FIBERS SPRAY",
+              "button_text": "FIND YOUR SHADE",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "root-cover-up-stick",
+              "image": "shopify:\/\/shop_images\/10.png",
+              "image_alignment": "center right",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "ROOT COVER-UP STICK",
+              "button_text": "FIND YOUR SHADE",
+              "button_link": "https:\/\/styleedit.com\/discount\/GIVE10?redirect=\/collections\/root-cover-up-stick",
+              "apply_overlay": false
+            }
+          },
+          "0969c568-cd5f-4c65-a485-b9d3d0e64c3e": {
+            "type": "collection",
+            "settings": {
+              "collection": "invisible-dry-shampoo",
+              "image": "shopify:\/\/shop_images\/11.png",
+              "image_alignment": "center right",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "INVISIBLE DRY SHAMPOO",
+              "button_text": "EXPLORE",
+              "button_link": "https:\/\/styleedit.com\/discount\/GIVE10?redirect=\/collections\/invisible-dry-shampoo",
+              "apply_overlay": false
+            }
+          }
+        },
+        "block_order": [
+          "fdb37677-72b0-4ef1-9a56-f6ad157f9664",
+          "collection-0",
+          "31fe881a-c895-438f-b461-10a20652b835",
+          "collection-1",
+          "eb33539b-9c20-46f4-a25e-408750af6f23",
+          "bafc29c7-3c6c-4a6a-916e-d55859ac3385",
+          "b850aac4-8de8-4fa6-bb57-03e9810e1e33",
+          "collection-2",
+          "0969c568-cd5f-4c65-a485-b9d3d0e64c3e"
+        ],
+        "settings": {
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "stack_on_mobile": false,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "settings": {
+          "subheading": "GIVE THE GIFT OF SALON-WORTHY HAIR...",
+          "title": "SHOP GIFT CARDS",
+          "show_headings_on_mobile": true,
+          "product": "style-edit-gift-card",
+          "show_vendor": true,
+          "show_sku": false,
+          "show_description": false,
+          "description_below_add_to_cart": false,
+          "selector_mode": "block",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 3,
+          "show_price_in_button": false,
+          "show_payment_button": true,
+          "show_pickup_availability": false
+        }
+      },
+      "timeline": {
+        "type": "timeline",
+        "disabled": true,
+        "blocks": {
+          "item-0": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2000",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          },
+          "item-1": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2001",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          },
+          "item-2": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2002",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "item-0",
+          "item-1",
+          "item-2"
+        ],
+        "settings": {
+          "text_color": "#ffffff"
+        }
+      },
+      "blog-posts": {
+        "type": "blog-posts",
+        "blocks": {
+          "blog-0": {
+            "type": "blog",
+            "settings": {
+              "blog": "deals-promotions"
+            }
+          }
+        },
+        "block_order": [
+          "blog-0"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "PROMOTIONS",
+          "show_category": false,
+          "button_link": "https:\/\/styleedit.com\/blogs\/deals-promotions",
+          "button_text": "View all"
+        }
+      },
+      "shop-the-look": {
+        "type": "shop-the-look",
+        "disabled": true,
+        "blocks": {
+          "look-0": {
+            "type": "look",
+            "settings": {
+              "dot_style": "light",
+              "product_1": "",
+              "product_1_horizontal_position": 30,
+              "product_1_vertical_position": 40,
+              "product_2": "",
+              "product_2_horizontal_position": 45,
+              "product_2_vertical_position": 65,
+              "product_3": "",
+              "product_3_horizontal_position": 70,
+              "product_3_vertical_position": 50
+            }
+          },
+          "look-1": {
+            "type": "look",
+            "settings": {
+              "dot_style": "light",
+              "product_1": "",
+              "product_1_horizontal_position": 25,
+              "product_1_vertical_position": 45,
+              "product_2": "",
+              "product_2_horizontal_position": 55,
+              "product_2_vertical_position": 30,
+              "product_3": "",
+              "product_3_horizontal_position": 65,
+              "product_3_vertical_position": 60
+            }
+          }
+        },
+        "block_order": [
+          "look-0",
+          "look-1"
+        ],
+        "settings": {
+          "subheading": "Shop",
+          "title": "Our looks",
+          "show_mobile_product_info": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_info": true,
+          "show_collection_image": false,
+          "apply_overlay": true,
+          "show_color_swatch": true,
+          "show_vendor": false,
+          "collection_image_size": "small",
+          "show_sort_by": true,
+          "show_layout_switch": false,
+          "toolbar_position": "bottom",
+          "filter_position": "sidebar",
+          "filter_mode": "hidden",
+          "show_filter_color_swatch": true,
+          "filter_menu": "",
+          "grid_items_per_page": 16,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "show_section": true,
+          "title": "Recently viewed",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "collection-footer": {
+        "type": "collection-footer",
+        "settings": {
+          "show_section": false,
+          "text_color": "#ffffff",
+          "apply_overlay": true,
+          "title": "Our story",
+          "content": "<p>Add your own custom content to explain your processes...<\/p>"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_share_buttons": true,
+          "show_vendor": false,
+          "show_sku": false,
+          "show_taxes_included": false,
+          "description_below_add_to_cart": true,
+          "selector_mode": "block",
+          "show_color_swatch": true,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 3,
+          "show_price_in_button": false,
+          "show_payment_button": true,
+          "show_pickup_availability": false,
+          "image_size": "medium",
+          "stack_images": false,
+          "show_thumbnails": true,
+          "enable_image_zoom": true,
+          "enable_video_looping": true,
+          "tab_page_1_handle": "shipping",
+          "tab_page_2_handle": "returns-1",
+          "reviews_enabled": true,
+          "featured_image_size": "large"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_popup": false,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "Popup",
+          "content": "<p>You can use this popup to display some useful information to your customers.<\/p>",
+          "show_newsletter": true,
+          "apparition_delay": 5
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "show_article_image": false,
+          "show_date": true,
+          "show_category": false,
+          "show_author": false,
+          "show_share_buttons": true
+        }
+      },
+      "shop-now": {
+        "type": "shop-now",
+        "settings": {
+          "show_section": true,
+          "title": "Shop the post",
+          "collection": "bestsellers",
+          "grid_items_count": 6,
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": true
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "show_rss": false,
+          "show_tags": false,
+          "show_featured_article": false,
+          "show_category": false
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "United States"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "e551d456-ff99-42c6-843d-e3b120f9ef2f": {
+            "type": "collection",
+            "settings": {
+              "collection": "brunette-beauty",
+              "image": "shopify:\/\/shop_images\/Low-res_10_19_20_FINAL_SE_LIT_127_Collection_Brochure__UPDATE_REVISIONS_BLEED_US_Page_06.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP",
+              "title": "BRUNETTE BEAUTY",
+              "button_text": "FIND YOUR SHADE"
+            }
+          },
+          "d8066c56-0275-4c0c-a60d-95e4ea3154b8": {
+            "type": "collection",
+            "settings": {
+              "collection": "blonde-perfection-style-edit-hair-solutions-for-blonde-hair",
+              "image": "shopify:\/\/shop_images\/Low-res_10_19_20_FINAL_SE_LIT_127_Collection_Brochure__UPDATE_REVISIONS_BLEED_US_Page_14.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP",
+              "title": "Blonde Perfection",
+              "button_text": "FIND YOUR SHADE"
+            }
+          },
+          "1db44b6e-99c4-439c-a0d2-7f6a70c6512d": {
+            "type": "collection",
+            "settings": {
+              "collection": "red-dark",
+              "image": "shopify:\/\/shop_images\/Low-res_10_19_20_FINAL_SE_LIT_127_Collection_Brochure__UPDATE_REVISIONS_BLEED_US_Page_12.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP",
+              "title": "DROP RED GORGEOUS",
+              "button_text": "FIND YOUR SHADE"
+            }
+          },
+          "aa2eb513-a299-460c-9585-869aed45913e": {
+            "type": "collection",
+            "settings": {
+              "collection": "gifts",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP",
+              "title": "GIFTS",
+              "button_text": "EXPLORE"
+            }
+          },
+          "a6e907e3-c39b-41f6-87b5-191bbff44ba1": {
+            "type": "collection",
+            "settings": {
+              "collection": "black",
+              "image": "shopify:\/\/shop_images\/black_91d5fdff-8065-42f7-94ec-585f47132470.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP BY SHADE",
+              "title": "BLACK",
+              "button_text": "View products"
+            }
+          },
+          "e700c78b-6a0f-40bc-9024-0e470e6869ac": {
+            "type": "collection",
+            "settings": {
+              "collection": "brown-dark",
+              "image": "shopify:\/\/shop_images\/dark_brown.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP BY SHADE",
+              "title": "DARK BROWN",
+              "button_text": "View products"
+            }
+          },
+          "efc2b135-c886-403a-9bb2-c103024bdadd": {
+            "type": "collection",
+            "settings": {
+              "collection": "brown-medium",
+              "image": "shopify:\/\/shop_images\/medium_brown.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP BY SHADE",
+              "title": "MEDIUM BROWN",
+              "button_text": "View products"
+            }
+          },
+          "aaaa9f2d-6f97-47db-bd42-e86d9fb2d623": {
+            "type": "collection",
+            "settings": {
+              "collection": "brown-light",
+              "image": "shopify:\/\/shop_images\/light_brown.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP BY SHADE",
+              "title": "LIGHT BROWN",
+              "button_text": "View products"
+            }
+          },
+          "3e3664e7-f214-425b-a07a-2b868de47b89": {
+            "type": "collection",
+            "settings": {
+              "collection": "blonde-dark",
+              "image": "shopify:\/\/shop_images\/dark_blonde_10f82117-c831-4f24-a0e6-60b4f05239d1.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP BY SHADE",
+              "title": "DARK BLONDE",
+              "button_text": "View products"
+            }
+          },
+          "87e63ad8-3eae-4e63-b056-22b585610d55": {
+            "type": "collection",
+            "settings": {
+              "collection": "blonde-medium",
+              "image": "shopify:\/\/shop_images\/medium_blonde.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP BY SHADE",
+              "title": "MEDIUM BLONDE",
+              "button_text": "View products"
+            }
+          },
+          "dc4d0926-7391-4b4e-b9ea-c3802d4a91e8": {
+            "type": "collection",
+            "settings": {
+              "collection": "blonde-light",
+              "image": "shopify:\/\/shop_images\/LIGHT_BLONDE_eff12c58-7c66-41d8-bfa1-a516b160e861.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP BY SHADE",
+              "title": "LIGHT BLONDE",
+              "button_text": "View products"
+            }
+          },
+          "08a53fb8-e9d3-49de-8539-1716a24b517a": {
+            "type": "collection",
+            "settings": {
+              "collection": "dark-red",
+              "image": "shopify:\/\/shop_images\/dark_red.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP BY SHADE",
+              "title": "DARK RED",
+              "button_text": "View products"
+            }
+          },
+          "830497cb-a15f-4bb8-9650-873902722f67": {
+            "type": "collection",
+            "settings": {
+              "collection": "red-medium",
+              "image": "shopify:\/\/shop_images\/medium_red_2.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP BY SHADE",
+              "title": "MEDIUM RED",
+              "button_text": "View products"
+            }
+          },
+          "d6bcd292-be6f-4c4f-bb3e-825cf3249e83": {
+            "type": "collection",
+            "settings": {
+              "collection": "red-light",
+              "image": "shopify:\/\/shop_images\/light_red_cb0145f6-493d-4b52-a932-98c9aa19f45f.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "SHOP BY SHADE",
+              "title": "LIGHT RED",
+              "button_text": "View products"
+            }
+          }
+        },
+        "block_order": [
+          "e551d456-ff99-42c6-843d-e3b120f9ef2f",
+          "d8066c56-0275-4c0c-a60d-95e4ea3154b8",
+          "1db44b6e-99c4-439c-a0d2-7f6a70c6512d",
+          "aa2eb513-a299-460c-9585-869aed45913e",
+          "a6e907e3-c39b-41f6-87b5-191bbff44ba1",
+          "e700c78b-6a0f-40bc-9024-0e470e6869ac",
+          "efc2b135-c886-403a-9bb2-c103024bdadd",
+          "aaaa9f2d-6f97-47db-bd42-e86d9fb2d623",
+          "3e3664e7-f214-425b-a07a-2b868de47b89",
+          "87e63ad8-3eae-4e63-b056-22b585610d55",
+          "dc4d0926-7391-4b4e-b9ea-c3802d4a91e8",
+          "08a53fb8-e9d3-49de-8539-1716a24b517a",
+          "830497cb-a15f-4bb8-9650-873902722f67",
+          "d6bcd292-be6f-4c4f-bb3e-825cf3249e83"
+        ],
+        "settings": {
+          "collections_to_show": "selected",
+          "image_size": "small",
+          "add_spacing": true,
+          "expand_collection": false,
+          "apply_overlay": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-4": {
+            "type": "separator",
+            "settings": {
+              "title": "Products"
+            }
+          },
+          "page-faq-template-6": {
+            "type": "question",
+            "settings": {
+              "title": "How long will the product stay on? Will it run down my face if I sweat?",
+              "answer": "<p>Style Edit Concealer Touch-up Spray is wind, rain, &amp; sweat resistant, so it won&#x27;t run. The  temporary color will stay secure until your next shampoo!<\/p>"
+            }
+          },
+          "page-faq-template-5": {
+            "type": "question",
+            "settings": {
+              "title": "Does it feel sticky or heavy?",
+              "answer": "<p>Nope! Once dried, hair will feel light and look refreshed. Our unique formula matches your hair’s shine, for the most natural look possible.<\/p>"
+            }
+          },
+          "b79b62f6-9445-4273-9480-06e7f23fc0cc": {
+            "type": "question",
+            "settings": {
+              "title": "Are your products natural?",
+              "answer": "<p>Yes, our color-adaptive pigments are naturally derived and made in the USA.<\/p>"
+            }
+          },
+          "83d3e69f-b768-4eaa-a0dc-966c6632f3ea": {
+            "type": "question",
+            "settings": {
+              "title": "Where are your products manufactured?",
+              "answer": "<p>Our products are proudly manufactured in the USA.<\/p>"
+            }
+          },
+          "page-faq-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "Shipping + Returns"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "Do you offer free shipping?",
+              "answer": "<p>Yes, all orders shipped <strong>within the United States<\/strong> qualify for free shipping.<\/p>"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+              "title": "Do you ship overseas?",
+              "answer": "<p>Yes, but shipping charges will apply. Please see our Shipping Policies page for more information.<\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "question",
+            "settings": {
+              "title": "Do you accept returns?",
+              "answer": "<p>Yes! Please contact us within 30 days of delivery if you wish to request a return. To be eligible for a return, your item must be unused and in the same condition that you received it. It must also be in the original packaging. Please send us an email at <a href=\"mailto:customerservice@styleedit.com\"><span style=\"text-decoration:underline\">customerservice@styleedit.com<\/span><\/a> or call us at 1-855-695-1466.<\/p>"
+            }
+          },
+          "page-faq-template-7": {
+            "type": "separator",
+            "settings": {
+              "title": "Other"
+            }
+          },
+          "page-faq-template-8": {
+            "type": "question",
+            "settings": {
+              "title": "Don’t see your question here?",
+              "answer": "<p>We’re here to help! Please send us an email at <a href=\"mailto:customerservice@styleedit.com\"><span style=\"text-decoration:underline\">customerservice@styleedit.com<\/span><\/a> or call us at 1-855-695-1466.<br\/>We’re available to chat from Monday-Friday, 9am-5pm EST. If you leave us a message after normal business hours, we’ll get back to you ASAP!<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-4",
+          "page-faq-template-6",
+          "page-faq-template-5",
+          "b79b62f6-9445-4273-9480-06e7f23fc0cc",
+          "83d3e69f-b768-4eaa-a0dc-966c6632f3ea",
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "page-faq-template-2",
+          "page-faq-template-3",
+          "page-faq-template-7",
+          "page-faq-template-8"
+        ],
+        "settings": {
+        }
+      },
+      "1606314225eb0ded70": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "1606314225eb0ded70-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Desktop_New_Year_New_Hair_Banner_fa15b36c-eb94-4f22-9124-4e0788d983fc.png",
+              "mobile_image": "shopify:\/\/shop_images\/Mobile_New_Year_New_Hair_Banner_e30a44fc-9f77-4955-bdab-17118ee5590f.png",
+              "apply_overlay": false,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "",
+              "button_1_link": "https:\/\/styleedit.com\/collections\/gifts",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
+          "9e8b52bf-6280-409f-a30c-b323813ea3d1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Desktop_New_Year_20_off_Banner_2_71da1157-3cdd-4dee-b75b-be365076b590.png",
+              "mobile_image": "shopify:\/\/shop_images\/Mobile_New_Year_20_off_Banner_3809dd0b-3133-4c0d-b590-26ac66290b49.png",
+              "apply_overlay": false,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "",
+              "button_1_link": "https:\/\/styleedit.com\/collections\/all-products",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
+          "2931f0f3-971b-47ec-b097-21dfbd470fd3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Bestsellers_Desktop_Banner_12.1.20_bed754cd-65fc-48f1-b541-68f062dc5771.png",
+              "mobile_image": "shopify:\/\/shop_images\/Mobile_Bestsellers_Banner_12.1.20_fe71fdfb-fd4c-4234-bb7c-45241449812c.png",
+              "apply_overlay": false,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "",
+              "button_1_link": "https:\/\/styleedit.com\/collections\/bestsellers",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
+          "45c87a1f-8e94-45fd-a4d7-6a01c23cc118": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Root_Concealer_Bestseller_8948e118-c227-4472-a90e-28784fc0fc68.png",
+              "apply_overlay": false,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1606314225eb0ded70-1",
+          "9e8b52bf-6280-409f-a30c-b323813ea3d1",
+          "2931f0f3-971b-47ec-b097-21dfbd470fd3",
+          "45c87a1f-8e94-45fd-a4d7-6a01c23cc118"
+        ],
+        "settings": {
+          "show_fullscreen": true,
+          "show_arrow": true,
+          "autoplay": true,
+          "cycle_speed": 7,
+          "text_color": "#ffffff",
+          "button_color": "#363636",
+          "button_background": "#ffffff"
+        }
+      },
+      "1606753172b1e8219b": {
+        "type": "slideshow",
+        "blocks": {
+          "d773ce30-ba4e-48f1-896d-c9ce0c9dff8f": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/evergreen_banner-desktop_cdfa428e-48bf-409f-b78a-0e3a209f542c.png",
+              "mobile_image": "shopify:\/\/shop_images\/evergreen_banner-mobile_604791a0-971e-4e7d-ac31-7e4ace3264b7.png",
+              "apply_overlay": false,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "",
+              "button_1_link": "https:\/\/styleedit.com\/collections\/all-products",
+              "button_2_text": "",
+              "button_2_link": "https:\/\/styleedit.com\/collections\/all-products"
+            }
+          },
+          "3e214f2a-4065-4c39-b7ce-9a6261997da7": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Style_Edit_CB_Desktop_Banner_final_64.png",
+              "mobile_image": "shopify:\/\/shop_images\/THURSDAY_Mobile_banner_FINAL_650_x_953_px_600_x_900_px_-_2023-02-17T101906.268.png",
+              "apply_overlay": false,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "",
+              "button_1_link": "https:\/\/styleedit.com\/discount\/COVERUP30?redirect=%2Fproducts%2Finstant-root-cover-up-stick",
+              "button_2_text": "",
+              "button_2_link": "https:\/\/styleedit.com\/discount\/COVERUP30?redirect=%2Fproducts%2Finstant-root-cover-up-stick"
+            }
+          },
+          "0a861bda-ba74-41f5-a608-3d06047fec5d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/20offDuoShine_BNR_HP_05.png",
+              "mobile_image": "shopify:\/\/shop_images\/SE_20offDuoShine_BNR_HP_M4.png",
+              "apply_overlay": false,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "",
+              "button_1_link": "https:\/\/styleedit.com\/collections\/sets-and-bundles",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "d773ce30-ba4e-48f1-896d-c9ce0c9dff8f",
+          "3e214f2a-4065-4c39-b7ce-9a6261997da7",
+          "0a861bda-ba74-41f5-a608-3d06047fec5d"
+        ],
+        "settings": {
+          "show_fullscreen": false,
+          "show_arrow": false,
+          "autoplay": true,
+          "cycle_speed": 5,
+          "text_color": "#ffffff",
+          "button_color": "#ffb4a2",
+          "button_background": "#ffffff"
+        }
+      },
+      "1606931749dec3e680": {
+        "type": "maestrooo-instagram",
+        "settings": {
+          "title": "WHAT'S NEW ON OUR INSTAGRAM?",
+          "subheading": "<p>@STYLEEDITHAIR<\/p>",
+          "button_text": "Visit our Profile",
+          "button_link": "https:\/\/www.instagram.com\/styleedithair\/",
+          "layout": "collage",
+          "image_size": "small",
+          "full_width": false,
+          "add_spacing": true,
+          "rows_count": 1,
+          "show_author": false,
+          "show_caption": true,
+          "show_date": true,
+          "click_action": "open_instagram",
+          "heading_color": "#000000",
+          "subheading_color": "#000000",
+          "button_background": "#000000",
+          "button_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_text_color": "#ffffff",
+          "overlay_opacity": 54
+        }
+      },
+      "page-wholesale": {
+        "type": "page-wholesale",
+        "settings": {
+          "bannerText": "Style Edit Wholesale",
+          "bannerSubText": "Be a part of the Brand",
+          "btn_label": "Join Now",
+          "formText": "Integer at faucibus urna. Nullam condimentum leo id elit sagittis auctor. Curabitur elementum nunc a leo imperdiet, nec elementum diam elementum. Etiam elementum euismod commodo. Proin eleifend eget quam ut efficitur. Mauris a accumsan mauris. Phasellus egestas et risus sit amet hendrerit. Nulla facilisi. Cras urna sem, vulputate sed condimentum a, posuere vel enim.",
+          "formTitle": "Join Style Edit",
+          "form_subtitle": "All you have to do is fill in this simple form and we'll get back to you with more details.",
+          "form_btnText": "Join Now",
+          "detailTitle": "Growing Together",
+          "detailContent": "Be a part of the Brand",
+          "detail_additionalContent": "Be a part of the Brand",
+          "number_1": "",
+          "inc_number_1": "",
+          "title_1": "",
+          "increase_2": 2,
+          "number_2": "",
+          "inc_number_2": "",
+          "start_2": "6\/1\/2020",
+          "title_2": "",
+          "number_3": "",
+          "increase_3": 30,
+          "start_3": "6\/1\/2020",
+          "inc_number_3": "",
+          "title_3": "",
+          "featuresTitle": "Join Style Edit",
+          "featuresContent": "All you have to do is fill in this simple form and we'll get back to you with more details."
+        }
+      },
+      "fi_header": {
+        "type": "fi_header",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/STYLE_EDIT_Media_Mentions_Banner_2.png",
+          "image_mbl": "shopify:\/\/shop_images\/MOBILE_STYLE_EDIT_Media_Mentions_Banner.png",
+          "content": "See what all the hype is about!",
+          "text": "<p>Check out where we've been featured, and see what others have to say about Style Edit.<br\/><br\/>PRESS: Want to feature Style Edit? Reach out to us <a href=\"mailto:press@styleedit.com?cc=styleedit@tractenberg.com\" target=\"_blank\" title=\"mailto:press@styleedit.com?cc=styleedit@tractenberg.com\"><span style=\"text-decoration:underline\">here!<\/span><\/a><\/p>",
+          "link": "",
+          "link_txt": ""
+        }
+      },
+      "blog_posts": {
+        "type": "blog_posts",
+        "blocks": {
+          "b39cf914-f1f3-4a90-b5e6-1b995c84310f": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-03-23_164743.png",
+              "main_image": "shopify:\/\/shop_images\/amazon_blonde_concealers_6.png",
+              "title": "These At-Home Hair Dyes Yield Salon-Worthy Results for a Fraction of the Price",
+              "text": "Published 3\/22\/23. Style Edit is on the list of salon worthy DIY (do it yourself) root conceal",
+              "site": "www.yahoo.com",
+              "link": "https:\/\/www.yahoo.com\/lifestyle\/home-hair-dyes-yield-salon-163500850.html"
+            }
+          },
+          "deb2a596-f47e-411d-8a03-e999424d7dfb": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-03-17_104126.png",
+              "main_image": "shopify:\/\/shop_images\/amazon_posts_1080x_1080_3_ee21bad8-4d2e-40b4-b813-04a088898bb5.png",
+              "title": "Don’t Fret About Missing a Salon Visit Ever Again—Conceal Hair Growth With This Easy Cover Up Powder",
+              "text": "Published 3\/16\/23. Style Edit root touch-up powder bonds to hair instantly and lasts until you wash it out.",
+              "site": "www.thedailybeast.com",
+              "link": "https:\/\/www.thedailybeast.com\/style-edit-root-touch-up-review"
+            }
+          },
+          "7073281c-3889-4c8a-bdc0-06683f64ffc9": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-03-17_103805.png",
+              "main_image": "shopify:\/\/shop_images\/share_a_sale_dimensions_Promo_tab_push_notifications_500_x_500_px_13.png",
+              "title": "BE KIND. by ellen Spring 2023 Subscription Box Review & Coupon Code",
+              "text": "Published 3\/15\/23. Style Edit featured in Ellen Degeneres seasonal subscription box!",
+              "site": "2littlerosebuds.com",
+              "link": "https:\/\/2littlerosebuds.com\/be-kind-by-ellen-spring-2023-subscription-box-review-coupon-code\/"
+            }
+          },
+          "9b4a9260-e0b0-4884-814a-691e7db639bf": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-03-17_105240.png",
+              "main_image": "shopify:\/\/shop_images\/amazon_blonde_concealers_5.png",
+              "title": "Go-To Girlfriend: Oscars red carpet beauty buys",
+              "text": "Published 3\/9\/23. Style Edit is on the list of some red carpet worthy beauty buys",
+              "site": "www.newsbreak.com",
+              "link": "https:\/\/www.newsbreak.com\/news\/2951733350719-go-to-girlfriend-oscars-red-carpet-beauty-buys"
+            }
+          },
+          "6918c8e3-4382-4961-8156-0ca3ad952cd7": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-21_143636.jpg",
+              "main_image": "shopify:\/\/shop_images\/Root_Touchup_Powder_Medium_Blonde3.jpg",
+              "title": "Roots: Gone! Save 25% on This Touch-Up Powder With Instant Results",
+              "text": "Published 2\/20\/2023. Our products are ideal for those moments when you're roots are ready for a touch up but wallet may not be",
+              "site": "www.yahoo.com",
+              "link": "https:\/\/www.yahoo.com\/now\/roots-gone-save-25-touch-135222216.html"
+            }
+          },
+          "c2edf86e-6bd9-40d2-93d3-da9c6069a5a3": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-20_130110.jpg",
+              "main_image": "shopify:\/\/shop_images\/Root_Touchup_Powder_Medium_Blonde5.jpg",
+              "title": "Roots: Gone! Save 25% on This Touch-Up Powder With Instant Results",
+              "text": "Published 02\/20\/2023. Our Root Touch-Up Powder is 25% Off. Browse all 10 shades to find your perfect match.",
+              "site": "www.aol.com",
+              "link": "https:\/\/www.aol.com\/roots-gone-save-25-touch-185222207.html"
+            }
+          },
+          "7beb3331-8b88-4020-ab70-b2d71ecf5ea9": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-21_143518.jpg",
+              "main_image": "shopify:\/\/shop_images\/share_a_sale_dimensions_Promo_tab_push_notifications_500_x_500_px_22.png",
+              "title": "Roots: Gone! Save 25% on This Touch-Up Powder With Instant Results",
+              "text": "Published 02\/20\/2023. Skip your next salon visit but still maintain that fresh salon quality look",
+              "site": "www.usmagazine.com",
+              "link": "https:\/\/www.usmagazine.com\/shop-with-us\/news\/style-edit-root-touch-up-powder-amazon-beauty\/"
+            }
+          },
+          "33b951b4-0d06-41d2-a9c9-868cdaa87247": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-20_130110.jpg",
+              "main_image": "shopify:\/\/shop_images\/Root_Cover_Up_Stick_Dark_Brown3_1.jpg",
+              "title": "Marisa Tomei's choice for covering gray hairs is on sale for Presidents' Day",
+              "text": "Published 2\/17\/2023. Catch This Celeb-Fave is on Sale!",
+              "site": "www.aol.com",
+              "link": "https:\/\/www.aol.com\/style-edit-root-powder-presidents-day-174436548.html"
+            }
+          },
+          "560e02e6-63df-4b10-aeaa-1fc936169d1a": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-21_142835.jpg",
+              "main_image": "shopify:\/\/shop_images\/Root_Cover_Up_Stick_Dark_Brown2_1.jpg",
+              "title": "Marisa Tomei’s Quick-Fix Hack for Hiding Grey Hair Is This Product That Shoppers Call ‘Brilliant’ & It’s 30% Off",
+              "text": "Published 2\/16\/2023. Marisas Root Conceal Secrets Revealed",
+              "site": "www.sheknows.com",
+              "link": "https:\/\/www.sheknows.com\/living\/articles\/2547191\/marisa-tomei-style-edit-root-cover-up-stick\/"
+            }
+          },
+          "3e0a90c1-9bac-4ff3-a6bc-2347e11eef20": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-20_130257.jpg",
+              "main_image": "shopify:\/\/shop_images\/Available_in_10_colors.jpg",
+              "title": "Confirmed: This Root Touch-Up Powder Lives Up to the 2,000 5-Star Reviews",
+              "text": "Published 2\/16\/2023. One editor tested the root powder and is sharing her results",
+              "site": "flipboard.com",
+              "link": "https:\/\/flipboard.com\/article\/confirmed-this-root-touch-up-powder-lives-up-to-the-2-000-5-star-reviews\/a-VzjDbOVEQqmJXq35KLtrmw%3Aa%3A221841707-1d2e182603%2Fpopsugar.com"
+            }
+          },
+          "da79fbcf-66ad-453a-b799-fc3dc7e0649a": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-17_114557.jpg",
+              "main_image": "shopify:\/\/shop_images\/share_a_sale_dimensions_Promo_tab_push_notifications_500_x_500_px_19.png",
+              "title": "This Root Touch-Up Powder Is My Secret to Covering Grays",
+              "text": "Published 2\/16\/2023.  POPSUGAR editors review Style Edit's Root Touch-Up Powder. Cover Image From: popsugar.com",
+              "site": "www.popsugar.com",
+              "link": "https:\/\/www.popsugar.com\/beauty\/style-edit-root-touch-up-powder-review-49090467"
+            }
+          },
+          "362df89f-ed7a-4c29-a4fe-71b9f95c680a": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-16_151408.jpg",
+              "main_image": "shopify:\/\/shop_images\/3_1.png",
+              "title": "Marisa Tomei swears by this product for covering gray hairs — and it’s on sale on Amazon",
+              "text": "Published 2\/16\/2023. Marisa Tomei shares her secret trick for covering grays in between hair appointments is the Style Edit Root Cover Up Stick",
+              "site": "www.yahoo.com",
+              "link": "https:\/\/www.yahoo.com\/lifestyle\/style-edit-root-powder-marisa-tomei-183536064.html"
+            }
+          },
+          "b1ac03da-9f49-4e7f-ab10-a5719a58fe25": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-16_152939.jpg",
+              "main_image": "shopify:\/\/shop_images\/share_a_sale_dimensions_Promo_tab_push_notifications_500_x_500_px_18.png",
+              "title": "ELLEN’S SPRING BOX IS HERE!",
+              "text": "Published 02\/15\/2023.  Get 8 socially conscious products handpicked by Ellen, worth over $200 for as little as $49.49",
+              "site": "www.ellenshop.com",
+              "link": "https:\/\/www.ellenshop.com\/pages\/spring-2023-launch"
+            }
+          },
+          "08da854b-9b62-46c9-96f4-869f0ba49fb0": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-16_131326.jpg",
+              "main_image": "shopify:\/\/shop_images\/black_cover_up_stick.png",
+              "title": "3 Easy, Low-Lift Ways To Cover Gray Hair (If You Want To), From A Top Stylist",
+              "text": "Published 2\/16\/2023. Celebrity hairstylist Laura Polko shares some tips.",
+              "site": "www.mindbodygreen.com",
+              "link": "https:\/\/www.mindbodygreen.com\/articles\/best-ways-to-cover-gray-hair"
+            }
+          },
+          "e1f57291-ba07-448e-97db-364daa93840a": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-16_152457.jpg",
+              "main_image": "shopify:\/\/shop_images\/share_a_sale_dimensions_Promo_tab_push_notifications_500_x_500_px_14.png",
+              "title": "BE KIND by Ellen Box Spring 2023 Full Spoilers!",
+              "text": "Published 02\/15\/2023. Check out Style Edit products featured in Ellen DeGeneres subscription box!",
+              "site": "hellosubscription.com",
+              "link": "https:\/\/hellosubscription.com\/2023\/02\/be-kind-by-ellen-box-spring-2023-full-spoilers\/"
+            }
+          },
+          "72b1f9c1-5747-4496-a9f4-c6a753a47526": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-16_152114.jpg",
+              "main_image": "shopify:\/\/shop_images\/share_a_sale_dimensions_Promo_tab_push_notifications_500_x_500_px_17.png",
+              "title": "What color is hardest on your hair?",
+              "text": "Published 02\/15\/2023. The top challenges those who color their hair experience.",
+              "site": "www.thehealthyjournal.com",
+              "link": "https:\/\/www.thehealthyjournal.com\/faq\/what-color-is-hardest-on-your-hair"
+            }
+          },
+          "cfa9f610-0ad6-405a-ad60-62042f331529": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-16_131923.jpg",
+              "main_image": "shopify:\/\/shop_images\/share_a_sale_dimensions_Promo_tab_push_notifications_500_x_500_px_14.png",
+              "title": "Be Kind by Ellen Spring 2023 Box – Full Spoilers + Coupon Code",
+              "text": "Published 2\/15\/2023. Style Edit in the Spring 2023 Be Kind subscription box.",
+              "site": "www.subscriptionboxramblings.com",
+              "link": "https:\/\/subscriptionboxramblings.com\/2023\/02\/be-kind-by-ellen-spring-2023-box-full-spoilers-coupon-code\/"
+            }
+          },
+          "825c38ca-43de-4772-ba08-73068689797f": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-16_131446.jpg",
+              "main_image": "shopify:\/\/shop_images\/Promo_tab_push_notifications_22_0f7fc415-3e4c-40da-afe3-5f85fa3e3ca7.jpg",
+              "title": "Best Root Touch Up",
+              "text": "Updated Feb 2023. Style Edit Root Concealer Touch-Up Spray is #1",
+              "site": "www.reviewed.usatoday.com",
+              "link": "https:\/\/reviewed.usatoday.com\/shopping\/en\/similar\/STYLE-EDIT\/root-touch-up\/v2?gclid=Cj0KCQiAxbefBhDfARIsAL4XLRqXWT_NrjWtq-TwZFmVpyh55UjEbe9DJXsBc-9T2T3ddzjo0TaL-ZQaAr7iEALw_wcB"
+            }
+          },
+          "d081da2f-a739-4e12-9761-5f0512bb8b4d": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-13_115405.jpg",
+              "main_image": "shopify:\/\/shop_images\/Available_in_8_colors.png",
+              "title": "30 common grooming mistakes you're making that you don't realize are costing you money",
+              "text": "Published 2\/12\/2023. Mistake: Spending too much money getting hair color touched up Solution: This root concealer spray that helps spread out salon color sessions",
+              "site": "www.mic.com",
+              "link": "https:\/\/www.mic.com\/life\/common-grooming-mistakes-youre-making-that-you-dont-realize-are-costing-you-money"
+            }
+          },
+          "c47a2e64-b620-4ce4-8a4a-81a3b8fa8fe9": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-06_125630.jpg",
+              "main_image": "shopify:\/\/shop_images\/share_a_sale_dimensions_Promo_tab_push_notifications_500_x_500_px_12_4499d630-4cd1-4eb0-88d3-7d5a9085cb54.png",
+              "title": "15 Best Drugstore Hair Dyes That Are Worth Trying At Home In 2023",
+              "text": "Published 2\/9\/2023. Affordable and mess-free hair colors to add oomph and character to your hair anywhere.",
+              "site": "www.stylecraze.com",
+              "link": "https:\/\/www.stylecraze.com\/articles\/best-drugstore-hair-dyes\/"
+            }
+          },
+          "4ce75a7c-02ab-412a-aae2-5d05702471ed": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/download.png",
+              "main_image": "shopify:\/\/shop_images\/share_a_sale_dimensions_Promo_tab_push_notifications_500_x_500_px_12.png",
+              "title": "Go Longer Between Salon Visits With This Instant Root Touch-Up Spray — 25% Off",
+              "text": "Published 2\/9\/23. Get salon quality confidence with Stye Edit products!",
+              "site": "www.usmagazine.com",
+              "link": "https:\/\/www.usmagazine.com\/shop-with-us\/news\/style-edit-root-touch-up-spray-amazon-beauty\/"
+            }
+          },
+          "15f6877e-162d-4829-afc4-601a8a027459": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-06_125630.jpg",
+              "main_image": "shopify:\/\/shop_images\/Root_Touch-Up_Dark_Brown_Package-3864.jpg",
+              "title": "12 Best Root Touch-Up Kits That Fits Your Needs – 2023",
+              "text": "Published 1\/31\/23. Revert the hair roots the way you want within minutes with our salon quality products...",
+              "site": "https:\/\/www.stylecraze.com",
+              "link": "https:\/\/www.stylecraze.com\/articles\/best-root-touch-up-kits\/"
+            }
+          },
+          "134ee1d4-48cd-49fd-9e76-9c55f929250e": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/todayshow_4000x_fb9cd2f3-fcd3-4aa1-ae0c-a15204e7b4ef.png",
+              "main_image": "shopify:\/\/shop_images\/share_a_sale_dimensions_Promo_tab_push_notifications_500_x_500_px.png",
+              "title": "The best hair dyes: Expert tips and 22 at-home hair colors to try",
+              "text": "Published 1\/25\/23. Stylists love these budget-friendly brands and Style Edit is one of them!",
+              "site": "www.todaycom",
+              "link": "https:\/\/www.today.com\/shop\/11-best-hair-dye-brands-let-you-skip-salon-t83736"
+            }
+          },
+          "76fdbbde-e6d5-4d76-b822-233ba6f7c13c": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-01-25_111000.jpg",
+              "main_image": "shopify:\/\/shop_images\/amazon_posts_1080x_1080_5.jpg",
+              "title": "2023 Hair Trends: The Best Cuts, Colors and Styles to Try This Year",
+              "text": "Published 1\/24\/23. From fresh cuts to retro accessories, celebrity hairstylist Laura Polko shares her top predictions for 2023 hair trends, Style Edit is on the list",
+              "site": "www.people.com",
+              "link": "https:\/\/people.com\/beauty\/2023-hair-cut-color-style-trends\/"
+            }
+          },
+          "af9fc4f6-aed2-4d35-a5fa-0dfba7479ccd": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/download.png",
+              "main_image": "shopify:\/\/shop_images\/Root_Touch-Up_Dark_Brown_Package-3864.jpg",
+              "title": "The Best Hair Powders To Get Rid of Bad Hair Days for Good",
+              "text": "Published 1\/7\/2023. Style Edit Hair Powder – Best for Root Touch Up",
+              "site": "www.usmagazine.com",
+              "link": "https:\/\/www.usmagazine.com\/reviews\/news\/the-best-hair-powders-to-get-rid-of-bad-hair-days-for-good\/"
+            }
+          },
+          "5aae0acc-3d2d-4b9e-9e08-a4b42e402df1": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-02-06_125837.jpg",
+              "main_image": "shopify:\/\/shop_images\/model_square_2_1.png",
+              "title": "The Best Root Touch Ups for Covering up Your Grays",
+              "text": "Published 1\/4\/23 Touch up your look with our root conceal products..",
+              "site": "https:\/\/twentytwowords.com\/",
+              "link": "https:\/\/twentytwowords.com\/review\/best-root-touch-up\/"
+            }
+          },
+          "850354fe-d38b-4394-b4ee-ed2c6f0ee0bb": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-07-14_112419.jpg",
+              "main_image": "shopify:\/\/shop_images\/light_red_1_pack.jpg",
+              "title": "The 12 Best Root Touch-Ups of 2022, According to Celebrity Hairstylists",
+              "text": "Published 11\/29\/2022. Sneak peak: Our root touch up powder is on the list...",
+              "site": "instyle.com",
+              "link": "https:\/\/www.instyle.com\/best-root-touch-ups-6833104"
+            }
+          },
+          "f4e4cadd-4063-4780-92df-2961e383015c": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-12-08_125944.jpg",
+              "main_image": "shopify:\/\/shop_images\/Promo_tab_push_notifications_22.jpg",
+              "title": "Cyber Monday Deal 40% off Concealer Touch- Up Spray!",
+              "text": "Published 11\/28\/22. Cyber Monday Steal on your favorite root concealer touch-up spray",
+              "site": "www.coolmompicks.com",
+              "link": "https:\/\/coolmompicks.com\/blog\/2022\/11\/28\/style-edit-root-concealer-spray-on-sale\/"
+            }
+          },
+          "cf16257c-9f8c-4aff-acd6-0e02a0619ae9": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-11-09_154456.jpg",
+              "main_image": "shopify:\/\/shop_images\/email_campaign_products_and_descriptions_3.jpg",
+              "title": "Beauty & Fashion Holiday Gift Guide: Unforgettable Looks, Scents, Skincare and Makeup!",
+              "text": "Published 11\/7\/22. Choose Style Edit when searching for the perfect holiday gifts for all budgets",
+              "site": "www.luxelifenyc.com",
+              "link": "https:\/\/luxelifenyc.com\/2022\/11\/beauty-fashion-holiday-gift-guides-unforgettable-looks-scents-skincare-and-makeup\/"
+            }
+          },
+          "a3b8eaf0-cbe7-4f6b-8a4a-0fc47988bffb": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/todayshow_4000x_a4f2636d-0eb2-4b8a-bc33-cb31a115d82d.png",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-09-28_115023_8989011b-29cc-4bf5-ae93-3253fe1ba900.jpg",
+              "title": "Need a quick fix between salon visits? This root spray covers my grays in seconds",
+              "text": "Published 10\/28\/22. This hair-hack will save you money, time and make every day a great hair day",
+              "site": "www.today.com",
+              "link": "https:\/\/www.today.com\/shop\/style-edit-root-concealer-amazon-t267296?prodVariation=1"
+            }
+          },
+          "fc09b6c6-0268-4646-bc3f-aaa6f72826f8": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-10-26_123725.jpg",
+              "main_image": "shopify:\/\/shop_images\/StyleEdit_Week1_1_20220510.jpg",
+              "title": "Don’t Fret About Missing a Salon Visit: Conceal New Hair Growth With This Natural and Easy Cover Up Powder",
+              "text": "Published 10\/12\/22. When a celeb shares his\/her hair secret, you listen!",
+              "site": "www.newyorkfolk.com",
+              "link": "https:\/\/newyorkfolk.com\/news\/dont-fret-about-missing-a-salon-visit-conceal-new-hair-growth-with-this-natural-and-easy-cover-up-powder\/"
+            }
+          },
+          "1734793f-4677-4c95-b276-9c1a1b8e6ad8": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-09-22_110907.jpg",
+              "main_image": "shopify:\/\/shop_images\/rs_1024x759-220921063651-1024-E-Insider-KD-092122_6c096845-3d30-4800-9820-d5a7aced14e5.jpg",
+              "title": "Prime Day Deal: Save on Root Touch Up Spray With 8,300+ 5-Star Reviews",
+              "text": "Published 10\/11\/22. Need some additional shopping insight on our root touch up concealer spray? Check out these reviews.",
+              "site": "www.reportdoor.com",
+              "link": "https:\/\/www.reportdoor.com\/prime-day-deal-save-on-root-touch-up-spray-with-8300-5-star-reviews\/"
+            }
+          },
+          "0926113a-7287-4f0c-b424-d6e0fbb8a467": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/todayshow_4000x_a4f2636d-0eb2-4b8a-bc33-cb31a115d82d.png",
+              "main_image": "shopify:\/\/shop_images\/share_a_sale_dimensions_Promo_tab_push_notifications_500_x_500_px.png",
+              "title": "The best hair dyes of 2022: Expert tips and 20 at-home hair colors to try",
+              "text": "Updated 10\/4\/22. Our root concealer touch up spray + cover up stick are on the list",
+              "site": "today.com",
+              "link": "https:\/\/www.today.com\/shop\/11-best-hair-dye-brands-let-you-skip-salon-t83736"
+            }
+          },
+          "a9284bd1-89fb-43a0-8d2c-e27490759385": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-10-06_155153.jpg",
+              "main_image": "shopify:\/\/shop_images\/share_a_sale_dimensions_Promo_tab_push_notifications_500_x_500_px_1.png",
+              "title": "The Best Beauty and Grooming Deals to Shop on Amazon’s Fall Prime Day (Updating)",
+              "text": "Published 10\/3\/22. Up to 40% off Style Edit during Fall Prime Day Exclusive Deals",
+              "site": "www.hollywoodreporter.com\/",
+              "link": "https:\/\/www.hollywoodreporter.com\/lifestyle\/shopping\/best-amazon-prime-day-beauty-deals-1234971301\/"
+            }
+          },
+          "8f3093df-3ad5-43b9-95b7-cd8bb72f4486": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-09-22_110907.jpg",
+              "main_image": "shopify:\/\/shop_images\/STE-3200_-_2nd_image_42c18132-c37d-4983-ac80-168451ae746b.jpg",
+              "title": "This Root Touch Up Spray With 8,200+ 5-Star Reviews Is 50% Off",
+              "text": "Published 09\/21\/22. None other than the all time favorite: The root concealer touch-up spray.",
+              "site": "www.reportdoor.com",
+              "link": "https:\/\/www.reportdoor.com\/this-root-touch-up-spray-with-8200-5-star-reviews-is-50-off\/"
+            }
+          },
+          "2697582b-df88-4cdc-b48d-0f9fd6079658": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/E__News_current_logo.png",
+              "main_image": "shopify:\/\/shop_images\/rs_1024x759-220921063651-1024-E-Insider-KD-092122_6c096845-3d30-4800-9820-d5a7aced14e5.jpg",
+              "title": "48-Hour Flash Deal: This Root Touch Up Spray With 8,200+ 5-Star Amazon Reviews Is 50% Off",
+              "text": "Published 09\/21\/22. Good hair days are ahead. The Style Edit Root Concealer Touch Up Spray is 50% off for just two days.",
+              "site": "www.eonline.com",
+              "link": "https:\/\/www.eonline.com\/news\/1347226\/style-edit-root-concealer-touch-up-spray-discount"
+            }
+          },
+          "551bc961-c550-4337-9562-3e070a948394": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/todayshow_4000x_a4f2636d-0eb2-4b8a-bc33-cb31a115d82d.png",
+              "main_image": "shopify:\/\/shop_images\/419pfLMTcFL.jpg",
+              "title": "The Shop Report: 20 bestsellers TODAY readers bought in August",
+              "text": "Published 09\/20\/22. Check out what Today Show shoppers deem checkout worthy.",
+              "site": "www.today.com",
+              "link": "https:\/\/www.today.com\/shop\/august-2022-bestsellers-t263376"
+            }
+          },
+          "94f18d38-9bd9-449f-9931-fb2eadbb22b4": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-09-19_121835.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-09-19_121859.jpg",
+              "title": "What Exactly Is \"Hair Filler\" and How Does It Work?",
+              "text": "Published 09\/16\/22. Click in to learn more about the difference and similarities amongst hair fillers in the market.",
+              "site": "www.allure.com",
+              "link": "https:\/\/www.allure.com\/story\/what-is-hair-filler-how-does-it-work"
+            }
+          },
+          "f553e92f-30a6-414f-8c5f-e7fd8e928763": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-09-21_114641.jpg",
+              "main_image": "shopify:\/\/shop_images\/StyleEdit_Week1_9_20220518_410e4d66-8f12-4e84-9ac6-98189ccf06ba.jpg",
+              "title": "40 Weird But Genius Grooming Hacks You'll Wish You Knew About Sooner",
+              "text": "Published 09\/16\/22. Once you try Style Edit, you'll be wishing you heard of us sooner",
+              "site": "www.thezoereport.com",
+              "link": "https:\/\/www.thezoereport.com\/beauty\/weird-but-genius-grooming-hacks-youll-wish-you-knew-about-sooner"
+            }
+          },
+          "b30fa232-7ad7-48f2-9895-677859b93564": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-09-07_140750_dca06b5d-97ef-402b-8aca-c06dd566821b.jpg",
+              "main_image": "shopify:\/\/shop_images\/51c984fynJL._SL1080.jpg",
+              "title": "Beauty Experts Say These Cheap Products Actually Work So Freakin' Well",
+              "text": "Published 09\/10\/22. The Root Touch-Up Spray For In-Between Dye Jobs",
+              "site": "https:\/\/www.bustle.com\/",
+              "link": "https:\/\/www.bustle.com\/style\/beauty-experts-say-these-cheap-products-actually-work-so-freakin-well"
+            }
+          },
+          "42313f80-eff4-4f9c-b347-5c77048b94ad": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-09-07_141330.jpg",
+              "main_image": "shopify:\/\/shop_images\/81h4X1sbyYL._SL1500__3.jpg",
+              "title": "Camouflage Grays with This Celebrity Favorite Hair Product",
+              "text": "Published 09\/06\/22. Style Edit offers a range of hues for every hair color, from blonde to black and everything in between. They come in touch-up sticks, sprays, powders, or a combination of the three.",
+              "site": "https:\/\/www.msn.com\/",
+              "link": "https:\/\/www.msn.com\/en-us\/lifestyle\/shopping\/camouflage-grays-with-this-celebrity-favorite-hair-product\/ar-AA11w8Dc?ocid=windirect&item=flights%3Aprg-tipsubsc-v1a&cvid=639f5bcf804648fcbac28ce955dabf35"
+            }
+          },
+          "b9dd9599-3e24-438d-a167-df870376d3cf": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-09-07_140750.jpg",
+              "main_image": "shopify:\/\/shop_images\/StyleEdit_Week1_1_20220510.jpg",
+              "title": "You'd Look So Much Better If You Tried Any Of These Cult-Favorite Products Reviewers Swear By",
+              "text": "Published 09\/05\/22. This Root Touch-Up Powder You Can Use Between Coloring Sessions",
+              "site": "www.bustle.com",
+              "link": "https:\/\/www.bustle.com\/style\/youd-look-so-much-better-if-you-tried-any-of-these-cult-favorite-products-reviewers-swear-by"
+            }
+          },
+          "67d60a48-9897-41b3-9592-84b8329ba8f0": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-08-29_090847.jpg",
+              "main_image": "shopify:\/\/shop_images\/BLONDE_CONCEALER_NAMES_13.png",
+              "title": "37 Items You Need to Plan Your Dream Vacation",
+              "text": "Published 08\/26\/22. Easily Touch Up Your Roots With Our Cover Up Stick",
+              "site": "https:\/\/twentytwowords.com\/",
+              "link": "https:\/\/twentytwowords.com\/37-items-you-need-to-plan-your-dream-vacation\/"
+            }
+          },
+          "ee95c59b-2447-4835-8e3a-8e8cb25afa21": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/hollywood-life-logo-828BBF7E26-seeklogo.com.png",
+              "main_image": "shopify:\/\/shop_images\/StyleEdit_Week1_9_20220518.jpg",
+              "title": "Leave Your Hair Looking Fresh With the Best Root Touch-Ups",
+              "text": "Published 08\/25\/22. Style Edit Root Touch-Up  —  Best Overall",
+              "site": "www.hollywoodlife.com",
+              "link": "https:\/\/hollywoodlife.com\/review\/personal-care\/root-touch-up\/"
+            }
+          },
+          "7cfd1dc0-2d0e-46f6-bf0c-52764ac1a9ab": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-08-24_155700.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-08-24_160410.jpg",
+              "title": "Grooming Mistakes You Don't Realize You're Making All The Time",
+              "text": "Published  08\/22\/22. Mistake: You Go To The Salon Every Month For Root Touch-Ups Solution: Spritz On This Easy Temporary Root Concealer",
+              "site": "www.bustle.com",
+              "link": "https:\/\/www.bustle.com\/style\/grooming-mistakes-you-dont-realize-youre-making-all-the-time"
+            }
+          },
+          "21ca56ba-49c8-4997-a4ae-1e0f2c335aa1": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/todayshow_4000x_e6f84340-cba9-413e-ba2c-9e95743487e7.png",
+              "main_image": "shopify:\/\/shop_images\/Promo_tab_push_notifications_38.jpg",
+              "title": "Shop these hacks to streamline your daily routines",
+              "text": "Published 08\/22\/22. Style Edit products are sure to help quicken and make a difference in your everyday routine.",
+              "site": "www.today.com",
+              "link": "https:\/\/www.today.com\/video\/simple-affordable-hacks-to-make-your-daily-home-routines-easier-146721349935"
+            }
+          },
+          "a4cf1c3e-53c4-4e98-b8b8-e53d9368af4e": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-08-23_085117.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-08-23_085335.jpg",
+              "title": "'GMA' Deals & Steals to pamper yourself",
+              "text": "Published 08\/13\/22. Pamper yourself with salon quality haircare at a fraction of the cost of a salon visit",
+              "site": "www.goodmorningamerica.com",
+              "link": "https:\/\/www.goodmorningamerica.com\/shop\/story\/gma-deals-steals-pamper-88295775"
+            }
+          },
+          "ca8a4b0b-c4e6-49d6-af9e-65da3bc2d700": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-08-10_105100.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-08-10_105204.jpg",
+              "title": "These Clever Products Under $25 Instantly Make You Look So Much Better",
+              "text": "Published 08\/06\/22. Choose Style Edit when looking to touch up your look!",
+              "site": "www.elitedaily.com",
+              "link": "https:\/\/www.elitedaily.com\/lifestyle\/these-clever-products-under-25-instantly-make-you-look-so-much-better"
+            }
+          },
+          "41543f3f-5e28-437f-b7ac-0501da39eb3f": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-08-04_144402.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-08-04_144444_4eb0a1c7-5974-4f43-a05a-5375dd8c6058.jpg",
+              "title": "11 Best Temporary Hair Color Sprays",
+              "text": "Published 08\/01\/22. You'll be glad to know we've made number 1 on the list of best temporary hair color sprays..",
+              "site": "https:\/\/www.stylecraze.com",
+              "link": "https:\/\/www.stylecraze.com\/articles\/best-temporary-hair-color-spray\/"
+            }
+          },
+          "5eb30d5f-707b-4f48-8355-0a8bc98cde00": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/stylecrazy.png",
+              "main_image": "shopify:\/\/shop_images\/20best.png",
+              "title": "20 Best Root Touch-Ups To Save Your Hair Between Salon Visits",
+              "text": "Published 07\/29\/22. These hair root touch-up products conceal your grown-out roots and extend the time between each salon appointment.",
+              "site": "stylecraze.com",
+              "link": "https:\/\/www.stylecraze.com\/articles\/best-hair-root-touch-up-products\/"
+            }
+          },
+          "e76a3ea5-5c50-4c85-9182-309a959fcde4": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-06-20_131456.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-06-20_131523.jpg",
+              "title": "Call Your Salon And Cancel That Pricy Root Touch-Up Appointment",
+              "text": "Published 06\/19\/22. See how Style Edits products are saving you big bucks in the long run.",
+              "site": "https:\/\/hollywoodlife.com\/",
+              "link": "https:\/\/hollywoodlife.com\/shop\/best-root-concealer-4765422\/"
+            }
+          },
+          "f382b523-fc26-45a1-9b8b-93002a50c74f": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-06-01_113530.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-06-01_113546.jpg",
+              "title": "The Best Root Touch-Ups",
+              "text": "Published 5\/31\/2022. Ranked #1 as best touch up powder. Style Edit's easy to carry and use root touch up powder is truly one of the best out there.",
+              "site": "https:\/\/www.lifesavvy.com\/",
+              "link": "https:\/\/www.lifesavvy.com\/reviews\/the-best-root-touch-ups\/"
+            }
+          },
+          "fd2160d0-928b-4e15-a2f8-bdeea40787c5": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/readersdigest.png",
+              "main_image": "shopify:\/\/shop_images\/confident-young-woman.jpg",
+              "title": "The Best Root Touch-Up Kits That Are Still in Stock",
+              "text": "Published 05\/23\/22. These stylist-approved products will camouflage the problems with your hair until your beloved salon reopens.",
+              "site": "rd.com",
+              "link": "https:\/\/www.rd.com\/list\/best-root-touch-up-kits\/"
+            }
+          },
+          "13e7974a-96d5-4d7c-923a-f6d075737f52": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-05-17_094612.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-05-17_095142.jpg",
+              "title": "The best root touch up products for when you can't get to the salon",
+              "text": "Published 5\/15\/2022. One of the greatest touch-up products for all hair types and needs is Style Edit root concealer spray.",
+              "site": "https:\/\/www.womanandhome.com\/",
+              "link": "https:\/\/www.womanandhome.com\/us\/beauty\/hair\/best-root-touch-up\/"
+            }
+          },
+          "e436755f-416b-49f8-b235-cf250dbf9715": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1.jpg",
+              "main_image": "shopify:\/\/shop_images\/download_1.png",
+              "title": "BEST ROOT TOUCH-UP POWDER",
+              "text": "Published 5\/10\/22. 2022 Best Root Touch Up Powder award goes to... you guessed it Style Edit",
+              "site": "https:\/\/www.newbeauty.com",
+              "link": "https:\/\/www.newbeauty.com\/awards\/root-touch-up-powder\/"
+            }
+          },
+          "039e883b-eb2c-41a0-848a-1da50cd0c0d1": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/White2x_hcwpd6.png",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-04-07_092721.jpg",
+              "title": "Don’t Fret About Missing a Salon Visit: Conceal New Hair Growth With This Natural and Easy Cover Up Powder",
+              "text": "Published 04\/06\/2022. Style Edit's touch up powder is sure to bond to your hair and give you an instant root touch up, plus it lasts until your next shampoo..",
+              "site": "https:\/\/www.thedailybeast.com\/",
+              "link": "https:\/\/www.thedailybeast.com\/style-edit-root-touch-up-review?ref=scroll"
+            }
+          },
+          "1b424006-6014-4f31-b4db-b80d0123eb1c": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-03-21_103658.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-03-21_103644.jpg",
+              "title": "Marisa Tomei’s Go-To For Covering Gray Hairs Is Cheaper Than You’d Expect — Now Available On Amazon",
+              "text": "Published 03\/19\/2022. Salon quality hair products that are affordable",
+              "site": "www.sheknows.com",
+              "link": "https:\/\/www.sheknows.com\/living\/articles\/2547191\/marisa-tomei-style-edit-root-cover-up-stick\/"
+            }
+          },
+          "701b163e-4575-4123-b283-32aaa1b4ee1a": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-03-21_103958.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-03-21_103946.jpg",
+              "title": "Say Goodbye To Wine Hangovers–Marisa Tomei Reveals Her Secret Cure",
+              "text": "Published 03\/18\/2022. Spruce up your post night out look with Marisas secret cure..",
+              "site": "www.suggest.com",
+              "link": "https:\/\/www.suggest.com\/marisa-tomei-starts-every-day-with-sunfood-chlorella-tablets\/2628603\/#amp_ct=1647821921408&amp_tf=From%20%251%24s&aoh=16478218564763&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fwww.suggest.com%2Fmarisa-tomei-starts-every-day-with-sunfood-chlorella-tablets%2F2628603%2F"
+            }
+          },
+          "e4aba8b9-58bb-47b3-8894-30f5c35b1b0b": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-05-17_095653.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-05-17_094633.jpg",
+              "title": "Readers Choice Award Winner for Best Root Concealer Spray was awarded to Style Edit's root concealer touch up spray!",
+              "text": "Published 11\/4\/2014. The spray that does it all— this temporary root touch-up spray instantly conceals grays or unwanted root re-growth on colored hair between salon visits.",
+              "site": "https:\/\/www.beautylaunchpad.com\/",
+              "link": "https:\/\/www.beautylaunchpad.com\/home\/article\/21146426\/watch-provide-quick-touch-ups-with-the-style-edit-root-concealer"
+            }
+          },
+          "a82f487a-6f6c-46d3-914e-b92a2acbb54c": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2022-03-18_104910.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-03-18_105311_2c8110ca-8c1e-4366-9ef4-3529e009ceba.jpg",
+              "title": "Marisa Tomei's Handy Touch-Up Pen for Gray Hairs Is Only $24 on Amazon Right Now",
+              "text": "Published 03\/17\/2022. Grab this celeb's secret beauty item for 30% off now.",
+              "site": "www.instyle.com",
+              "link": "https:\/\/www.instyle.com\/beauty\/maria-tomei-style-edit-gray-hair-concealer-amazon-sale"
+            }
+          },
+          "689e6fd4-dc88-479f-9801-a471b42ff7b8": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/travelleisurelogo.jpg",
+              "main_image": "shopify:\/\/shop_images\/Screenshot_2022-03-16_101001.jpg",
+              "title": "This Celeb-loved Root Touch-up Stick Comes in a Handy Powder That's 'Perfect for Travel'",
+              "text": "Published 03\/16\/2022. Here's a staple item frequent travelers need in their carry on.",
+              "site": "travelandleisure.com",
+              "link": "https:\/\/www.travelandleisure.com\/style\/beauty\/style-edit-root-touch-up-binding-powder-amazon-sale"
+            }
+          },
+          "e77c9433-923b-433c-8794-0716884647ed": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/instyle-logo.png",
+              "main_image": "shopify:\/\/shop_images\/image.jpg",
+              "title": "Marisa Tomei's Secret Weapon for Gray Hairs Is Actually Genius, According to Shoppers",
+              "text": "Published 01\/03\/2022. Per reviewers, it makes “grays be gone.”",
+              "site": "instyle.com",
+              "link": "https:\/\/www.instyle.com\/beauty\/marisa-tomei-style-edit-root-concealer-amazon"
+            }
+          },
+          "c66aae42-e01c-48aa-a4ce-b8e3800cfc29": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/new_beauty_logo.jpg",
+              "main_image": "shopify:\/\/shop_images\/marisa-tomei-beauty-routine.jpg",
+              "title": "Marisa Tomei Shares Her Minimalistic Beauty Routine",
+              "text": "Published 12\/17\/21. Tomei closes out her routine with a quick root touch-up using Style Edit’s Root Cover Up Stick",
+              "site": "newbeauty.com",
+              "link": "https:\/\/www.newbeauty.com\/marisa-tomei-beauty-routine\/"
+            }
+          },
+          "383065a2-89f3-42bd-8586-1ff2d470ae66": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/VOGUE_LOGO.svg_4ffd8d59-8e26-4cb7-9ac0-bbca9a80ccbc.png",
+              "main_image": "shopify:\/\/shop_images\/Marisa_Tomei_s_Guide_to_Natural_Skin_Care_Everyday_Makeup___Beauty_Secrets___Vogue_6-20_screenshot.png",
+              "title": "Marisa Tomei Shares Her Inside-Out Beauty Secrets, From Supplements to Serums",
+              "text": "Published 12\/15\/21. Style Edit’s Root Cover Up Stick completes her look.",
+              "site": "vogue.com",
+              "link": "https:\/\/www.vogue.com\/article\/marisa-tomei-beauty-secrets"
+            }
+          },
+          "7d650dac-e9a7-402d-a286-58105c30157c": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/new_beauty_logo.jpg",
+              "main_image": "shopify:\/\/shop_images\/HAIR-COLOR.png",
+              "title": "NewBeauty Awards: Hair Color + Scalp Care",
+              "text": "Published 04\/02\/2021. BEST ROOT TOUCH-UP POWDER, Our go-to gray concealer for everything from two strands to two inches—thanks COVID—Style Edit Root Touch Up Powder binds to every tiny hair, and comes in 10 shades.",
+              "site": "newbeauty.com",
+              "link": "https:\/\/www.newbeauty.com\/beauty-awards-2021-hair-color-scalp-care\/"
+            }
+          },
+          "e13bb1f7-647b-44dd-9fea-1d278cb9aba9": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/instyle-logo.png",
+              "main_image": "shopify:\/\/shop_images\/testtaylor.jpg",
+              "title": "Shoppers Call This Spray-On Root Concealer a 'Lifesaver' Between Salon Appointments",
+              "text": "Published 01\/09\/2021. Sometimes, you have to fake it 'til you make it.",
+              "site": "instyle.com",
+              "link": "https:\/\/www.instyle.com\/hair\/style-edit-root-concealer-amazon"
+            }
+          },
+          "31cdbed7-02e7-4bd1-a693-a5c3d26821cb": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/todayshow.png",
+              "main_image": "shopify:\/\/shop_images\/81b3d4e7-62f7-433d-9f72-ba60828e50d9.__CR0_0_1464_600_PT0_SX1464_V1.png",
+              "title": "Jill Martin shares 12 self-care products to give your routine a makeover",
+              "text": "Published 06\/11\/20. It isn’t permanent, but this spray is designed to cover fading roots while extending the life of color between salon visits. Martin also used it at home saying “this got me through a month and a half.”  \"I finished powdering my roots and I think it's an improvement. For something that's a temporary fix I think it's pretty good,” said Luchsinger.",
+              "site": "today.com",
+              "link": "https:\/\/www.today.com\/shop\/jill-martin-approved-self-care-products-t183082"
+            }
+          },
+          "f693207d-8266-4ed5-894f-63abfa9d2afd": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sheknows.png",
+              "main_image": "shopify:\/\/shop_images\/female-fashion-smiles.jpg",
+              "title": "The Best Root Touch-Ups That’ll Save You a Trip to the Salon",
+              "text": "Published 05\/22\/20. Style Edit will cover up your roots in just three seconds and dry within minutes, without staining your clothes or hands.",
+              "site": "SheKnows.com",
+              "link": "https:\/\/www.sheknows.com\/living\/articles\/2227131\/best-root-touch-up-amazon\/"
+            }
+          },
+          "21550f11-35e9-49a6-8ccb-a376ea14b1fa": {
+            "type": "Post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/todayshow.png",
+              "main_image": "shopify:\/\/shop_images\/w460_qgkoaju2g87yhhq2.jpg",
+              "title": "Jill Martin's Secret Weapon For Touching Up Her Roots in Seconds",
+              "text": "Published 04\/24\/2020. Don't let grays ruin a good hair day.",
+              "site": "today.com",
+              "link": "https:\/\/www.today.com\/shop\/jill-martin-s-secret-weapon-touching-her-roots-seconds-t179815"
+            }
+          }
+        },
+        "block_order": [
+          "b39cf914-f1f3-4a90-b5e6-1b995c84310f",
+          "deb2a596-f47e-411d-8a03-e999424d7dfb",
+          "7073281c-3889-4c8a-bdc0-06683f64ffc9",
+          "9b4a9260-e0b0-4884-814a-691e7db639bf",
+          "6918c8e3-4382-4961-8156-0ca3ad952cd7",
+          "c2edf86e-6bd9-40d2-93d3-da9c6069a5a3",
+          "7beb3331-8b88-4020-ab70-b2d71ecf5ea9",
+          "33b951b4-0d06-41d2-a9c9-868cdaa87247",
+          "560e02e6-63df-4b10-aeaa-1fc936169d1a",
+          "3e0a90c1-9bac-4ff3-a6bc-2347e11eef20",
+          "da79fbcf-66ad-453a-b799-fc3dc7e0649a",
+          "362df89f-ed7a-4c29-a4fe-71b9f95c680a",
+          "b1ac03da-9f49-4e7f-ab10-a5719a58fe25",
+          "08da854b-9b62-46c9-96f4-869f0ba49fb0",
+          "e1f57291-ba07-448e-97db-364daa93840a",
+          "72b1f9c1-5747-4496-a9f4-c6a753a47526",
+          "cfa9f610-0ad6-405a-ad60-62042f331529",
+          "825c38ca-43de-4772-ba08-73068689797f",
+          "d081da2f-a739-4e12-9761-5f0512bb8b4d",
+          "c47a2e64-b620-4ce4-8a4a-81a3b8fa8fe9",
+          "4ce75a7c-02ab-412a-aae2-5d05702471ed",
+          "15f6877e-162d-4829-afc4-601a8a027459",
+          "134ee1d4-48cd-49fd-9e76-9c55f929250e",
+          "76fdbbde-e6d5-4d76-b822-233ba6f7c13c",
+          "af9fc4f6-aed2-4d35-a5fa-0dfba7479ccd",
+          "5aae0acc-3d2d-4b9e-9e08-a4b42e402df1",
+          "850354fe-d38b-4394-b4ee-ed2c6f0ee0bb",
+          "f4e4cadd-4063-4780-92df-2961e383015c",
+          "cf16257c-9f8c-4aff-acd6-0e02a0619ae9",
+          "a3b8eaf0-cbe7-4f6b-8a4a-0fc47988bffb",
+          "fc09b6c6-0268-4646-bc3f-aaa6f72826f8",
+          "1734793f-4677-4c95-b276-9c1a1b8e6ad8",
+          "0926113a-7287-4f0c-b424-d6e0fbb8a467",
+          "a9284bd1-89fb-43a0-8d2c-e27490759385",
+          "8f3093df-3ad5-43b9-95b7-cd8bb72f4486",
+          "2697582b-df88-4cdc-b48d-0f9fd6079658",
+          "551bc961-c550-4337-9562-3e070a948394",
+          "94f18d38-9bd9-449f-9931-fb2eadbb22b4",
+          "f553e92f-30a6-414f-8c5f-e7fd8e928763",
+          "b30fa232-7ad7-48f2-9895-677859b93564",
+          "42313f80-eff4-4f9c-b347-5c77048b94ad",
+          "b9dd9599-3e24-438d-a167-df870376d3cf",
+          "67d60a48-9897-41b3-9592-84b8329ba8f0",
+          "ee95c59b-2447-4835-8e3a-8e8cb25afa21",
+          "7cfd1dc0-2d0e-46f6-bf0c-52764ac1a9ab",
+          "21ca56ba-49c8-4997-a4ae-1e0f2c335aa1",
+          "a4cf1c3e-53c4-4e98-b8b8-e53d9368af4e",
+          "ca8a4b0b-c4e6-49d6-af9e-65da3bc2d700",
+          "41543f3f-5e28-437f-b7ac-0501da39eb3f",
+          "5eb30d5f-707b-4f48-8355-0a8bc98cde00",
+          "e76a3ea5-5c50-4c85-9182-309a959fcde4",
+          "f382b523-fc26-45a1-9b8b-93002a50c74f",
+          "fd2160d0-928b-4e15-a2f8-bdeea40787c5",
+          "13e7974a-96d5-4d7c-923a-f6d075737f52",
+          "e436755f-416b-49f8-b235-cf250dbf9715",
+          "039e883b-eb2c-41a0-848a-1da50cd0c0d1",
+          "1b424006-6014-4f31-b4db-b80d0123eb1c",
+          "701b163e-4575-4123-b283-32aaa1b4ee1a",
+          "e4aba8b9-58bb-47b3-8894-30f5c35b1b0b",
+          "a82f487a-6f6c-46d3-914e-b92a2acbb54c",
+          "689e6fd4-dc88-479f-9801-a471b42ff7b8",
+          "e77c9433-923b-433c-8794-0716884647ed",
+          "c66aae42-e01c-48aa-a4ce-b8e3800cfc29",
+          "383065a2-89f3-42bd-8586-1ff2d470ae66",
+          "7d650dac-e9a7-402d-a286-58105c30157c",
+          "e13bb1f7-647b-44dd-9fea-1d278cb9aba9",
+          "31cdbed7-02e7-4bd1-a693-a5c3d26821cb",
+          "f693207d-8266-4ed5-894f-63abfa9d2afd",
+          "21550f11-35e9-49a6-8ccb-a376ea14b1fa"
+        ],
+        "settings": {
+          "title_color": "#b5838d",
+          "txt_clr": "#595959",
+          "site_clr": "#595959",
+          "btn_bg": "#b5838d",
+          "btn_txt": "#ffffff"
+        }
+      }
+    },
+    "content_for_index": [
+      "1606753172b1e8219b",
+      "1606314225eb0ded70",
+      "featured-collections",
+      "collection-list",
+      "featured-product",
+      "timeline",
+      "1606931749dec3e680",
+      "blog-posts",
+      "shop-the-look"
+    ],
+    "blocks": {
+      "11684364523414065237": {
+        "type": "shopify:\/\/apps\/aod-instant-checkout\/blocks\/instant_checkout\/d8d7320f-e597-4be0-88e4-6838fa244454",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Allure": {
+      "heading_color": "#1c1b1b",
+      "text_color": "#1c1b1b",
+      "text_light_color": "#6a6a6a",
+      "link_color": "#6a6a6a",
+      "background": "#efefef",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#1c1b1b",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#1c1b1b",
+      "header_light_color": "#6a6a6a",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#1c1b1b",
+      "footer_text_color": "#6a6a6a",
+      "newsletter_popup_background": "#1c1b1b",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#1c1b1b",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#1c1b1b",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "montserrat_n5",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "nunito_sans_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": false,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "page",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#efefef",
+      "checkout_accent_color": "#1c1b1b",
+      "checkout_button_color": "#1c1b1b",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Couture": {
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "text_light_color": "#939393",
+      "link_color": "#323232",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#5c5c5c",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#5c5c5c",
+      "header_light_color": "#939393",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#5c5c5c",
+      "footer_text_color": "#939393",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#1c1b1b",
+      "secondary_elements_background": "#5c5c5c",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#5c5c5c",
+      "heading_font": "futura_n4",
+      "heading_size": "large",
+      "uppercase_heading": false,
+      "text_font": "century_gothic_n4",
+      "base_text_font_size": 15,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "left",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "small",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "page",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#323232",
+      "checkout_button_color": "#5c5c5c",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f3f3f3",
+            "text_color": "#5c5c5c",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "center",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Vogue": {
+      "heading_color": "#303030",
+      "text_color": "#303030",
+      "text_light_color": "#595959",
+      "link_color": "#000000",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#f5db8b",
+      "button_text_color": "#303030",
+      "header_background": "#ffffff",
+      "header_heading_color": "#303030",
+      "header_light_color": "#595959",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#303030",
+      "footer_text_color": "#595959",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#303030",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#303030",
+      "secondary_elements_background": "#fce7a8",
+      "secondary_elements_text_color": "#303030",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "futura_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "show_element_staggering": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "page",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#a17c5e",
+      "checkout_button_color": "#454545",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f1e4d8",
+            "text_color": "#343434",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{% section 'collection-template' %}
+{% section 'recently-viewed-products' %}
+{% section 'collection-footer' %}
+
+
+<!-- Added by MH - redirect all-collections_2 to /collections -->
+{% if collection.handle == 'all-collections_2' %}
+    <script type="text/javascript">
+        window.location = "/collections/";
+    </script>
+{% endif %}
+
+
+<!-- redirect collections/invisible-dry-shampoo to /collections/all-products/products/invisible-dry-shampoo -->
+{% if collection.handle == 'invisible-dry-shampoo' %}
+    <script type="text/javascript">
+        window.location = "/collections/all-products/products/invisible-dry-shampoo";
+    </script>
+{% endif %}
+<!-- End MH additions -->

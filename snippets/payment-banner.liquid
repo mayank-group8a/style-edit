@@ -1,0 +1,78 @@
+	<style type="text/css">
+.payment_logos_main {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.payment_logos_text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.payment_logos_main_items {
+	display: flex;
+}
+.payment_logos_main_item {
+    margin: 0 5px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 700;
+}
+.payment_logos_main_item img {
+    width: 45px;
+}
+
+	</style>
+
+
+	<div class="payment_logos_main">
+      
+      		<div class="payment_logos_text">
+              {% if template == 'product' and product.handle != 'style-edit-gift-card' %}
+               <p product>4 interest-free payments<span> of {% if product.compare_at_price %}{{ product.compare_at_price | divided_by: 4 | money }}{% else %}{{ product.price | divided_by: 4 | money }}{% endif %}</span></p>
+              {% elsif product.handle == 'style-edit-gift-card' %}
+                  <p class="index">4 interest-free payments<span> of {{ product.price | divided_by: 4 | money }}</span></p>
+              {% elsif template == 'index' %}
+                  <p class="index">4 interest-free payments<span> of {{ product.price | divided_by: 4 | money }}</span></p>
+                {% else %}
+               <p cart class="cart">4 interest-free payments<span> of {{ cart.total_price | divided_by: 4 | money }}</span></p>
+              {% endif %}
+		</div>
+      
+		<div class="payment_logos_main_items">
+			<div class="payment_logos_main_item">
+              <a href="https://styleedit.com/pages/about-zip">
+				<img src="{{'Zip.png' | asset_img_url: '500x'}}" alt="Zip" title="Zip">
+                <p>Zip</p>
+              </a>       
+			</div>           
+			<div class="payment_logos_main_item">
+              <a href="https://styleedit.com/pages/about-klarna">
+				<img src="{{'Klarna.png' | asset_img_url: '500x'}}" title="Klarna">
+                <p>Klarna</p>
+              </a>
+			</div>
+			<div class="payment_logos_main_item">
+              <a href="https://styleedit.com/pages/about-shop-pay">
+				<img src="{{'Shop_Pay.png' | asset_img_url: '500x'}}" title="Shop pay">
+                <p>Shop Pay</p>
+              </a>
+			</div>
+			<div class="payment_logos_main_item">
+              <a href="https://styleedit.com/pages/about-afterpay">
+				<img src="{{'Afterpay.png' | asset_img_url: '500x'}}" title="Afterpay">
+                <p>Afterpay</p>
+              </a>
+			</div>
+          	<div class="payment_logos_main_item">
+              <a href="https://styleedit.com/pages/about-sezzle">
+				<img src="{{'Sezzle.png' | asset_img_url: '500x'}}" title="Sezzle">
+                <p>Sezzle</p>
+              </a>
+			</div>
+		</div>
+		<!-- <div class="payment_logos_text">
+			<p>4 interest-free payments</p>
+		</div> -->
+	</div>

@@ -1,0 +1,193 @@
+<style>
+    
+.fi_blogs {
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    justify-content: center;
+}
+.fi_blog {
+    width: calc(50% - 32px);
+    margin: 44px 16px 16px 16px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+}
+  .fi_blog_image {
+    margin: -24px 16px 0 16px;
+}
+  .fi_image {
+    border-radius: 6px;
+    box-shadow: 0 16px 16px rgba(0,0,0,0.25);
+    margin-bottom: 8px;
+    overflow: hidden;
+    position: relative;
+    background-color: #eff0f2;
+}
+  .fi_image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+  .fi_blog_footer {
+    padding: 24px 24px 12px;
+    text-align: left;
+}
+  .fi_blog_footer h3 {
+    font-size: 1.225em;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    color:{{section.settings.title_color}};
+    text-align: left;
+}
+  .fi_blog_footer p {
+    margin: 0;
+    margin-bottom: 12px;
+    color:{{section.settings.txt_clr}};
+}
+  div.fi_sites{margin-bottom: 8px;}
+  span.fi_site {
+    font-size: 0.765em;
+    color:{{section.settings.site_clr}};
+}
+  div.fi_btnn{    margin-top: 12px;
+    margin-bottom: 8px;}
+  span.fi_btn {
+    padding: 8px 16px;
+    color:{{section.settings.btn_txt}};
+    background:{{section.settings.btn_bg}};    border-radius: 32px;
+}
+  @media (max-width: 599.95px){
+.fi_blog {
+    width: calc(100% - 16px);
+}
+    .page-width{padding:10px 0;}
+  }
+  .fi_blog_head{width:100%}
+  .logo_fi{max-width:130px;margin:0 auto;}
+  .logo_fi{width:100%;}
+</style>
+<div class="page-width featured_in">
+  <div class="fi_inner">
+    <div class="fi_blogs">
+      {% for block in section.blocks %}
+        <div class="fi_blog">
+          <a href="{{block.settings.link}}">
+         
+          <div class="fi_blog_image">
+            <div class="fi_image">
+              <img src="{{block.settings.main_image | img_url: '4000x'}}" alt="image">
+            </div>
+          </div>
+          <div class="fi_blog_footer">
+            <h3>{{block.settings.title}} </h3>
+            <p>{{block.settings.text}}.</p>
+            <div class="fi_logo_footer">
+              <div class="site_btn">
+                <div class="fi_sitee">
+                  <span class="fi_site">{{block.settings.site}}</span>
+                </div>
+                <div class="fi_btnn">
+                  <span class="fi_btn">Read More</span>
+                </div>
+              </div>
+              <div class="fi_blog_head">
+                <div class="logo_fi">
+                  <img src="{{block.settings.image | img_url: '4000x' }}">
+                </div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Featured In Posts",
+    "settings": [
+		{
+          "type": "header",
+          "content": "colors"
+        },
+        {
+          "type": "color",
+          "id": "title_color",
+          "label": "Post Title Color",
+		  "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "txt_clr",
+          "label": "Post text Color",
+		  "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "site_clr",
+          "label": "Post Website Color",
+		  "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "btn_bg",
+          "label": "Post Btn Background",
+		  "default": "#0075bf"
+        },
+        {
+          "type": "color",
+          "id": "btn_txt",
+          "label": "Post Btn text Color",
+		  "default": "#ffffff"
+        }
+	],
+	"blocks": [
+      {
+        "type": "Post",
+        "name": "featured post",
+        "settings": [
+		  {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Logo Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "main_image",
+            "label": "Post Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Post Title"
+          },
+		  {
+            "type": "text",
+            "id": "text",
+            "label": "Post Content",
+            "default":"Add something here"
+          },
+          {
+            "type": "text",
+            "id": "site",
+            "label": "Post Website",
+            "default":"www.abc.com"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "link"
+          }
+        ]
+      }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

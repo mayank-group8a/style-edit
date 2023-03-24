@@ -1,0 +1,348 @@
+
+<section class="wholesale-form section-padding">
+    <div class="container">
+		
+     {% if false %}
+        <div class="note-div">
+        {% if section.settings.formText != blank %}
+            <p>{{ section.settings.formText }}</p>
+        {% endif %}
+        </div>
+     {% endif %}
+        <div class="wh-note-title">
+            {% if section.settings.formTitle != blank %}<h3 class="wh-head-title">{{ section.settings.formTitle }}</h3>{% endif %}
+            {% if section.settings.form_subtitle != blank %}<p>{{ section.settings.form_subtitle }}</p>{% endif %}
+        </div>
+        {% form 'contact', id: 'contact_wholesale' %}
+            <input type="hidden" name="contact[Subject]" value="Wholesale" />
+           
+            <div class="grid flex-center input-group-form">
+                <div class="grid__item one-whole d-flex align-items-center">
+                    <p class="mb-0 label">Name</p>
+                    <input type="text" class="Form__Input" required
+                    name="contact[name]"
+                    id="ContactFormName" placeholder="Name*"
+                    value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
+                </div>
+             
+            </div>
+            <div class="grid flex-center input-group-form">
+                <div class="grid__item one-whole d-flex align-items-center">
+                    <p class="mb-0 label">Email</p>
+                    <input type="email" required
+                    class="Form__Input"
+                    name="contact[email]"
+                    id="ContactFormEmail" placeholder="Email*"
+                    value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                    spellcheck="false">
+                </div>
+                </div>
+             <div class="grid flex-center input-group-form">
+                <div class="grid__item one-whole d-flex align-items-center">
+                    <p class="mb-0 label">Contact Number</p>
+                    <input type="text"   class="Form__Input" required
+                        name="contact[Contact No.]" 
+                        id="ContactFormPhone" placeholder="Contact Number*"
+                        value="">
+                </div>
+            </div>
+            <div class="grid flex-center input-group-form">
+                <div class="grid__item one-whole d-flex align-items-center">
+                    <p class="mb-0 label">Zip Code</p>
+                    <input type="text" class="Form__Input" required
+                        name="contact[Zip]" 
+                        id="ContactFormZip" placeholder="Zip Code*"
+                        value="">
+                </div>
+            </div>
+     
+          
+            <!--</div>-->
+            <div class="grid flex-center input-group-form"> 
+                <div class="grid__item one-whole text-center"> <button type="submit" class="wh-button Button Button--primary ">JOIN NOW</button></div>
+            </div>
+  
+   {% if form.posted_successfully? %}
+            <div class="successForm feedback text-center" style="color: #307a07;">
+            {{ 'contact.form.successfully_sent' | t }}
+            </div>
+            {% endif %}
+
+            {% if form.errors %}
+            <div class="errorForm feedback">
+            <!-- {{ form.errors.size }} or {{ form.errors | size }} -->
+            <p>Your contact form has {{ form.errors | size | pluralize: "an error", "a few errors" }}. To submit your form, make the following changes and try again:</p>
+            {% for field in form.errors %}
+            <p>The {{ field | capitalize | replace: 'Body', 'Message' }} field {{ form.errors.messages[field] }}.</p>
+            {% endfor %}
+            </div>
+            {% endif %}
+        {% endform %}
+    <!--</div>-->
+    </div>
+  
+  
+  
+</section>                
+
+
+
+
+
+
+{% if false %}
+
+<section class="index-icon wh-icon">
+    <div class="container">
+        <div class="wh-note-title">
+            {% if section.settings.featuresTitle != blank %}<h3 class="wh-head-title">{{ section.settings.featuresTitle }}</h3>{% endif %}
+            {% if section.settings.featuresContent !=blank %}<p>{{ section.settings.featuresContent }}</p>{% endif %}
+        </div>
+        {% if section.blocks.size > 0 %}
+        <ul class="icon-ul">
+            {% for block in section.blocks %}
+            <li>
+                <div class="icon-box">
+                    {% if block.settings.image != blank %}
+                    <div class="icon-img">
+                        <img src="{{ block.settings.image | img_url: '300x' }}" alt="{{ block.settings.title }}">
+                    </div>
+                    {% endif %}
+                    {% if block.settings.title != blank %}<p>{{ block.settings.title }}</p>{% endif %}
+                </div>
+            </li>             
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</section>
+
+{% endif %}
+
+
+{% schema %}
+{
+"name": "Content",
+"settings": [
+{
+    "type": "header",
+    "content": "Banner"
+},
+{
+    "type": "image_picker",
+    "id": "bannerImage",
+    "label": "Select Image"
+},
+{
+    "type": "image_picker",
+    "id": "bannerMobileImage",
+    "label": "Select Mobile Image"
+},
+{
+    "type": "text",
+    "id": "bannerText",
+    "label": "Title",
+    "default": "Style Edit Wholesale"
+},
+{
+    "type": "textarea",
+    "id": "bannerSubText",
+    "label": "SubTitle",
+    "default": "Be a part of the Brand"
+},
+{
+    "type": "text",
+    "id": "btn_label",
+    "label": "Banner Button Text",
+    "default": "Join Now"
+},
+{
+    "type": "url",
+    "id": "btn_url",
+    "label": "Button Link"
+},
+{
+    "type": "header",
+    "content": "Join Form"
+},
+{
+    "type": "textarea",
+    "id": "formText",
+    "label": "Details",
+    "default": "Integer at faucibus urna. Nullam condimentum leo id elit sagittis auctor. Curabitur elementum nunc a leo imperdiet, nec elementum diam elementum. Etiam elementum euismod commodo. Proin eleifend eget quam ut efficitur. Mauris a accumsan mauris. Phasellus egestas et risus sit amet hendrerit. Nulla facilisi. Cras urna sem, vulputate sed condimentum a, posuere vel enim."
+},
+{
+    "type": "text",
+    "id": "formTitle",
+    "label": "Title",
+    "default": "Join Style Edit"
+},
+{
+    "type": "text",
+    "id": "form_subtitle",
+    "label": "SubTitle",
+    "default": "All you have to do is fill up this simple form. And we'll get back to your"
+},
+{
+    "type": "text",
+    "id": "form_btnText",
+    "label": "Button Text",
+    "default": "Join Now"
+},
+{
+    "type": "header",
+    "content": "Detail Block"
+},
+{
+    "type": "image_picker",
+    "id": "detailImage",
+    "label": "Select Image"
+},
+{
+    "type": "text",
+    "id": "detailTitle",
+    "label": "Title",
+    "default": "Growing Together"
+},
+{
+    "type": "textarea",
+    "id": "detailContent",
+    "label": "Content",
+    "default": "Be a part of the Brand"
+},
+{
+    "type": "textarea",
+    "id": "detail_additionalContent",
+    "label": "Additional Details",
+    "default": "Be a part of the Brand"
+},
+{
+    "type": "header",
+    "content": "Sold in Salons"
+},
+{
+    "label": "Start Number",
+    "id": "number_1",
+    "type": "text"
+},
+{
+    "label": "Increase Number",
+    "id": "inc_number_1",
+    "type": "text"
+},
+{
+    "label": "Title",
+    "id": "title_1",
+    "type": "text"
+},
+{
+    "type": "header",
+    "content": "Social Approvments"
+},
+{
+  "type":   "range",
+  "id":     "increase_2",
+  "min":       1,
+  "max":       100,
+  "step":      1,
+  "unit":      "m",
+  "label":     "Count per hour",
+  "info": "How much the counter increase per hour",
+  "default":   2
+},
+{
+    "label": "Start Number",
+    "id": "number_2",
+    "type": "text"
+},
+{
+    "label": "Increase Number",
+    "id": "inc_number_2",
+    "type": "text"
+},
+{
+  "label": "Start Date",
+  "id": "start_2",
+  "type": "text",
+  "info": "Makes the starting number higher",
+  "default": "6/1/2020"
+},
+{
+    "label": "Title",
+    "id": "title_2",
+    "type": "text"
+},
+{
+    "type": "header",
+    "content": "Applications Applied"
+},
+{
+    "label": "Start Number",
+    "id": "number_3",
+    "type": "text"
+},
+{
+  "type":   "range",
+  "id":     "increase_3",
+  "min":       1,
+  "max":       100,
+  "step":      1,
+  "unit":      "m",
+  "label":     "Count per hour",
+  "info": "How much the counter increase per hour",
+  "default":   30
+},
+{
+  "label": "Start Date",
+  "id": "start_3",
+  "type": "text",
+  "info": "Makes the starting number higher",
+  "default": "6/1/2020"
+},
+{
+    "label": "Increase Number",
+    "id": "inc_number_3",
+    "type": "text"
+},
+{
+    "label": "Title",
+    "id": "title_3",
+    "type": "text"
+},
+{
+    "type": "header",
+    "content": "Features Block"
+},
+{
+    "type": "text",
+    "id": "featuresTitle",
+    "label": "Title",
+    "default": "Join Style Edit"
+},
+{
+    "type": "textarea",
+    "id": "featuresContent",
+    "label": "Subtitle",
+    "default": "All you have to do is fill in this simple form and we'll get back to you with more details."
+}
+],
+"blocks": [
+{
+    "type": "feature",
+    "name": "Feature",
+    "settings": [
+        {
+            "id": "image",
+            "type": "image_picker",
+            "label": "Select Image"
+        },
+        {
+            "id": "title",
+            "type": "text",
+            "label": "Caption"
+        }
+    ]
+}
+]
+}
+{% endschema %}

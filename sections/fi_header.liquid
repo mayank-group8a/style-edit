@@ -1,0 +1,61 @@
+<style>
+  p.first_par{font-size:22px;}
+</style>
+<section class="fi_header">
+  <div class="fi_hero_img" style="text-align:center;">
+    <img src="{{section.settings.image | img_url: '4000x' }}" alt="hero banner image" class="desk_img">
+    <img src="{{section.settings.image_mbl | img_url: '4000x' }}" alt="hero banner image" class="mbl_img">
+  </div>
+  <div class="hero_txt page-width">
+    <br>
+    <p class="first_par">{{section.settings.content}}</p>
+    <div class="hero_content">
+      {{section.settings.text}}
+    </div>
+    <br>
+    <a href="{{section.settings.link}}">{{section.settings.link_txt}}</a>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Featured In Header",
+    "settings": [
+		{
+			"type": "image_picker",
+			"id":"image",
+			"label": "Desktop Hero Image"
+		},
+        {
+			"type": "image_picker",
+			"id":"image_mbl",
+			"label": "Mobile Hero Image"
+		},
+        {
+			"type": "text",
+			"id":"content",
+			"label": "First Paragrpah"
+		},
+        {
+			"type": "richtext",
+			"id":"text",
+			"label": "Hero Text"
+		},
+        {
+			"type": "url",
+			"id":"link",
+			"label": "link"
+		},
+        {
+			"type": "text",
+			"id":"link_txt",
+			"label": "link Text"
+		}
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
