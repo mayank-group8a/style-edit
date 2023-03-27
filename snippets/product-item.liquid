@@ -169,7 +169,7 @@
                 {% endif %}
                 {%- endfor -%}
               {%- endif -%}
-        {%- elsif settings.productCondition == 'includeproducts' -%}
+        {%- elsif settings.productCondition == 'productsfromlist' -%}
                 {% assign showMessage = false %}
                 {% assign productListIteam = settings.includeproducts | split: "~" %}
                 {%- for producIteam in productListIteam -%}
