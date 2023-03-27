@@ -37,6 +37,12 @@
     "product_image_size": "natural",
     "product_list_horizontal_spacing": "medium",
     "product_list_vertical_spacing": "small",
+    "productCondition": "fromcollectionlist",
+    "collectionList": "sets-and-bundles~",
+    "includeproducts": "jeans~shirt~",
+    "productList": "root-touch-up-collection-gift-set~blonde-perfection-touch-up-and-conceal-trio~style-edit-brunette-beauty-collection-bundle~brunette-touch-up-and-conceal-trio~style-edit-drop-red-gorgeous-collection-bundle~style-edit-blonde-perfection-collection-bundle~drop-red-gorgeous-touch-up-and-conceal-trio~",
+    "product_discount": "20",
+    "product_discount_code": "SHINE20",
     "cart_type": "drawer",
     "cart_enable_notes": false,
     "cart_show_free_shipping_threshold": true,
@@ -56,6 +62,10 @@
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_accent_color": "#7e5475",
     "checkout_button_color": "#b5838d",
+    "product_deal_title": "promotion message",
+    "product_list": [
+      "root-concealer-duo"
+    ],
     "sections": {
       "sidebar-menu": {
         "type": "sidebar-menu",

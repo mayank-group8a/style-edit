@@ -157,7 +157,59 @@
         {%- if show_price_on_hover and color_swatch_list != blank -%}
           {{- color_swatch_list -}}
         {%- endif -%}
-
+        {% assign showMessage = false %}
+        {%- if settings.productCondition == 'all' -%}
+              {% assign showMessage = true %}
+              {%- if settings.productList != blank -%}
+                {% assign productListIteam = settings.productList | split: "~" %}
+                {%- for producIteam in productListIteam -%}
+                {% assign productIteam = all_products[producIteam] %}
+                {% if productIteam.title == product.title %}
+                {% assign showMessage = false %}
+                {% endif %}
+                {%- endfor -%}
+              {%- endif -%}
+        {%- elsif settings.productCondition == 'productsfromlist' -%}
+                {% assign showMessage = false %}
+                {% assign productListIteam = settings.includeproducts | split: "~" %}
+                {%- for producIteam in productListIteam -%}
+                {% assign productIteam = all_products[producIteam] %}
+                {% if productIteam.title == product.title %}
+                {% assign showMessage = true %}
+                {%- endif -%}
+                {%- endfor -%}
+        {%- else -%}
+            {%- if settings.collectionList != blank -%}
+              {%- assign collectionListIteam = settings.collectionList | split: "~" -%}
+              {%- for collectIteam in collectionListIteam -%}
+                {%- assign collectionIteam = collections[collectIteam] -%}
+                {%- if collectionIteam.handle == collection.handle -%}
+                  {% assign showMessage = true %}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+      
+            {%- if settings.productList != blank -%}
+              {% assign productListIteam = settings.productList | split: "~" %}
+              {%- for producIteam in productListIteam -%}
+              {% assign productIteam = all_products[producIteam] %}
+              {% if productIteam.title == product.title %}
+              {% assign showMessage = false %}
+              {% endif %}
+              {%- endfor -%}
+            {%- endif -%}
+        {% comment %}
+        {% assign productListIteam = settings.productList | split: "~" %}
+        {%- for producIteam in productListIteam -%}
+        {% assign productIteam = all_products[producIteam] %}
+        {% if productIteam.title == product.title %}
+        {% assign showMessage = false %}
+        {% else %}
+        {% assign showMessage = true %}
+        {% endif %}
+        {%- endfor -%}
+      {% endcomment %}
+        {%- endif -%}
         {%- if product.template_suffix != 'coming-soon' -%}
           <div class="ProductItem__PriceList {% if show_price_on_hover %}ProductItem__PriceList--showOnHover{% endif %} Heading">
             {%- if product.compare_at_price > product.price -%}
@@ -168,7 +220,14 @@
               {%- capture formatted_max_price -%}{{ product.price_max | money_without_trailing_zeros }}{%- endcapture -%}
               <span class="ProductItem__Price Price Text--subdued">{{ 'collection.product.from_price_html' | t: min_price: formatted_min_price, max_price: formatted_max_price }}</span>
             {%- else -%}
-              <span class="ProductItem__Price Price Text--subdued">{{ product.price | money_without_trailing_zeros }}</span>
+              {% if showMessage == true and settings.product_discount != "0" and settings.product_discount != '' %}
+              <span class="sale_price_block">
+              {% assign product_price_m      = product.selected_or_first_available_variant.price | times: settings.product_discount | divided_by: 100 | round %}
+              {% assign discount_price_m     = product.selected_or_first_available_variant.price | minus: product_price_m %}
+              <span class="sale_price Price--highlight" id="sale_price">{{ discount_price_m | money}}</span>
+              </span>
+              {% endif %}
+              <span class="ProductItem__Price Price Text--subdued {% if showMessage == true and settings.product_discount != "0" and settings.product_discount != '' %} deal_discount {% endif %}">{{ product.price | money_without_trailing_zeros }}</span>
             {%- endif -%}
           </div>
 

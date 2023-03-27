@@ -410,6 +410,66 @@
     ]
   },
   {
+    "name": "Discount Price on Product page & Collection page",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Details"
+      },
+      {
+        "type": "select",
+        "id": "productCondition",
+        "label": "Product Condition",
+        "default": "all",
+        "options": [
+        {
+          "value": "all",
+          "label": "All Products"
+        },
+        {
+          "value": "fromcollectionlist",
+          "label": "Collection List"
+        },
+        {
+          "value": "productsfromlist",
+          "label": "Products From List"
+        }
+        ]
+      },
+      {
+        "type": "textarea",
+        "id": "collectionList",
+        "label": "Collection  List",
+        "default": "jeans~shirt~",
+        "info": "all~men~new-arrivals"
+      },
+      {
+        "type": "textarea",
+        "id": "includeproducts",
+        "label": "Products From List",
+        "default": "jeans~shirt~",
+        "info": "product-1~product-2~product-3"
+      },
+      {
+        "type": "textarea",
+        "id": "productList",
+        "label": "Exclude Products",
+        "info": "product-1~product-2~product-3   Exclude Products will works only when selected the All Products or Collection List option is selected above."
+      },
+      {
+        "type": "text",
+        "id": "product_discount",
+        "label": "Product Discount",
+        "default": "0"
+      },
+      {
+        "type": "text",
+        "id": "product_discount_code",
+        "label": "Product Discount Code"
+      }
+    ]
+  },
+  {
     "name": "Cart",
     "settings": [
       {

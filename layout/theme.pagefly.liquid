@@ -252,6 +252,44 @@ _atrk_opts = { atrk_acct:"g7Gfv1Fx9f207i", domain:"styleedit.com",dynamic: true}
   {% render 'qikify-apps' %}
     {% include 'meteor-menu', load: 'head' %}
 
+  
+  <!-- Google tag (gtag.js) -->
+<!--   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3CFQ1E8BXN"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-3CFQ1E8BXN');
+  </script>
+  <script>
+  function gtag_report_conversion(url,variant) {
+    const moneyFormat = function(price) {
+      return Number((price / 100).toFixed(2));
+    }
+    //console.log('variantPrice:',variant);
+    var callback = function() {
+      if (typeof(url) != 'undefined' && url !== '') {
+        window.location = url;
+      }
+    };
+    gtag("event", "add_to_cart", {
+      currency: Shopify.currency.active,
+      value: moneyFormat(variant.price),
+      items: [{
+        item_id: variant.id,
+        item_name: variant.title,
+        currency: Shopify.currency.active,
+        item_brand: variant.vendor,
+        price: moneyFormat(variant.price),
+        quantity: variant.quantity
+      }]
+    });
+    return false;
+  }
+  </script>
+
+  
 </head>
  
 

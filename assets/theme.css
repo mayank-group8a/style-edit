@@ -11125,3 +11125,13 @@ button.aod_buy_button.animated.NO{
     color: red !important;
 }
 /* End MH additions */
+.deal_discount span.ProductMeta__Price,  span.ProductItem__Price.deal_discount {
+    text-decoration: line-through;
+}
+.black_friday_deal {
+    color: #b5838d;
+  font-family: var(--heading-font-family);
+}
+.black_friday_deal span.discount_message {
+    font-weight: 600;
+}

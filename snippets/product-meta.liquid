@@ -26,20 +26,83 @@
     <p class="ProductMeta__Sku Heading Text--subdued u-h6">{{ 'product.form.sku' | t }}: <span class="ProductMeta__SkuNumber">{{ product.selected_or_first_available_variant.sku }}</span></p>
   {%- endif -%}
 
-  
+  {% assign showMessage = false %}
+        {%- if settings.productCondition == 'all' -%}
+              {% assign showMessage = true %}
+              {%- if settings.productList != blank -%}
+                {% assign productListIteam = settings.productList | split: "~" %}
+                {%- for producIteam in productListIteam -%}
+                {% assign productIteam = all_products[producIteam] %}
+                {% if productIteam.title == product.title %}
+                {% assign showMessage = false %}
+                {% endif %}
+                {%- endfor -%}
+              {%- endif -%}
+        {%- elsif settings.productCondition == 'includeproducts' -%}
+                {% assign showMessage = false %}
+                {% assign productListIteam = settings.includeproducts | split: "~" %}
+                {%- for producIteam in productListIteam -%}
+                {% assign productIteam = all_products[producIteam] %}
+                {% if productIteam.title == product.title %}
+                {% assign showMessage = true %}
+                {%- endif -%}
+                {%- endfor -%}
+        {%- else -%}
+            {%- if settings.collectionList != blank -%}
+              {%- assign collectionListIteam = settings.collectionList | split: "~" -%}
+              {%- for collectIteam in collectionListIteam -%}
+                {%- assign collectionIteam = collections[collectIteam] -%}
+                {%- if collectionIteam.handle == collection.handle -%}
+                  {% assign showMessage = true %}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+      
+            {%- if settings.productList != blank -%}
+              {% assign productListIteam = settings.productList | split: "~" %}
+              {%- for producIteam in productListIteam -%}
+              {% assign productIteam = all_products[producIteam] %}
+              {% if productIteam.title == product.title %}
+              {% assign showMessage = false %}
+              {% endif %}
+              {%- endfor -%}
+            {%- endif -%}
+        {% comment %}
+        {% assign productListIteam = settings.productList | split: "~" %}
+        {%- for producIteam in productListIteam -%}
+        {% assign productIteam = all_products[producIteam] %}
+        {% if productIteam.title == product.title %}
+        {% assign showMessage = false %}
+        {% else %}
+        {% assign showMessage = true %}
+        {% endif %}
+        {%- endfor -%}
+      {% endcomment %}
+        {%- endif -%}
+
+
 {% comment %}Start automatically added Judge.me widget{% endcomment %}
   {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', concierge_install: true, product: product %}
 {% comment %}End automatically added Judge.me widget{% endcomment %}
 {%- if product.template_suffix != 'coming-soon' -%}
-    <div class="ProductMeta__PriceList Heading">
+    <div class="ProductMeta__PriceList Heading {% if showMessage == true and settings.product_discount != "0" and settings.product_discount != '' %} deal_discount {% endif %}">
       {%- if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%}
         <span class="ProductMeta__Price Price Price--highlight Text--subdued u-h4">{{ product.selected_or_first_available_variant.price | money_without_trailing_zeros }}</span>
         <span class="ProductMeta__Price Price Price--compareAt Text--subdued u-h4">{{ product.selected_or_first_available_variant.compare_at_price | money_without_trailing_zeros }}</span>
       {%- else -%}
+        {% if showMessage == true and settings.product_discount != "0" and settings.product_discount != '' %}
+        <span class="sale_price_block">
+        {% assign product_price_m      = product.selected_or_first_available_variant.price | times: settings.product_discount | divided_by: 100 | round %}
+        {% assign discount_price_m     = product.selected_or_first_available_variant.price | minus: product_price_m %}
+        <span class="sale_price Price--highlight" id="sale_price">{{ discount_price_m | money}}</span>
+        </span>
+        {% endif %}
         <span class="ProductMeta__Price Price Text--subdued u-h4">{{ product.selected_or_first_available_variant.price | money_without_trailing_zeros }}</span>
       {%- endif -%}
     </div>
-
+{% if showMessage == true and settings.product_discount != "0" and settings.product_discount != '' %}
+<div class="black_friday_deal">When you use code <span class="discount_message">{{settings.product_discount_code}}</span> ({{settings.product_discount | replace: '.0','' }}% OFF) at checkout</div>
+{% endif %}
     <div class="ProductMeta__UnitPriceMeasurement" style="display: {%- if product.selected_or_first_available_variant.unit_price_measurement -%}block{% else %}none{% endif %}">
       <div class="UnitPriceMeasurement Heading u-h6 Text--subdued">
         <span class="UnitPriceMeasurement__Price">{{ product.selected_or_first_available_variant.unit_price | money_without_trailing_zeros }}</span>
