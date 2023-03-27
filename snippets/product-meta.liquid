@@ -52,9 +52,11 @@
               {%- assign collectionListIteam = settings.collectionList | split: "~" -%}
               {%- for collectIteam in collectionListIteam -%}
                 {%- assign collectionIteam = collections[collectIteam] -%}
-                {%- if collectionIteam.handle == collection.handle -%}
-                  {% assign showMessage = true %}
-                {%- endif -%}
+                {% for collection in product.collections %}
+                  {% if collection.handle == collectionIteam.handle %}
+                    {% assign showMessage = true %}
+                  {% endif %}
+                {% endfor %}
               {%- endfor -%}
             {%- endif -%}
       
@@ -67,17 +69,6 @@
               {% endif %}
               {%- endfor -%}
             {%- endif -%}
-        {% comment %}
-        {% assign productListIteam = settings.productList | split: "~" %}
-        {%- for producIteam in productListIteam -%}
-        {% assign productIteam = all_products[producIteam] %}
-        {% if productIteam.title == product.title %}
-        {% assign showMessage = false %}
-        {% else %}
-        {% assign showMessage = true %}
-        {% endif %}
-        {%- endfor -%}
-      {% endcomment %}
         {%- endif -%}
 
 

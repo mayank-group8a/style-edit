@@ -169,7 +169,7 @@
                 {% endif %}
                 {%- endfor -%}
               {%- endif -%}
-        {%- elsif settings.productCondition == 'productsfromlist' -%}
+        {%- elsif settings.productCondition == 'includeproducts' -%}
                 {% assign showMessage = false %}
                 {% assign productListIteam = settings.includeproducts | split: "~" %}
                 {%- for producIteam in productListIteam -%}
@@ -183,9 +183,11 @@
               {%- assign collectionListIteam = settings.collectionList | split: "~" -%}
               {%- for collectIteam in collectionListIteam -%}
                 {%- assign collectionIteam = collections[collectIteam] -%}
-                {%- if collectionIteam.handle == collection.handle -%}
-                  {% assign showMessage = true %}
-                {%- endif -%}
+                {% for collection in product.collections %}
+                  {% if collection.handle == collectionIteam.handle %}
+                    {% assign showMessage = true %}
+                  {% endif %}
+                {% endfor %}
               {%- endfor -%}
             {%- endif -%}
       
@@ -198,17 +200,6 @@
               {% endif %}
               {%- endfor -%}
             {%- endif -%}
-        {% comment %}
-        {% assign productListIteam = settings.productList | split: "~" %}
-        {%- for producIteam in productListIteam -%}
-        {% assign productIteam = all_products[producIteam] %}
-        {% if productIteam.title == product.title %}
-        {% assign showMessage = false %}
-        {% else %}
-        {% assign showMessage = true %}
-        {% endif %}
-        {%- endfor -%}
-      {% endcomment %}
         {%- endif -%}
         {%- if product.template_suffix != 'coming-soon' -%}
           <div class="ProductItem__PriceList {% if show_price_on_hover %}ProductItem__PriceList--showOnHover{% endif %} Heading">
